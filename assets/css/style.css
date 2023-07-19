@@ -1,0 +1,100 @@
+body {
+
+    align-content: center;
+}
+
+h2 {
+    background-color: darkslateblue;
+    padding: 5px;
+    width: 220px;
+    color: beige;
+
+}
+
+h3 {
+    color: darkslateblue
+}
+
+.header {
+    background-color: lightslategrey;
+    color: white;
+    text-align: center;
+    font-family: Montserrat, Georgia, Confortaa, Verdana;
+    vertical-align: middle;
+    padding: 60px;
+    font: size 15px;
+}
+
+table {
+    border-color: black;
+    border: 1px solid;
+
+    height: 70px;
+    text-align: center;
+
+    background-color: grey
+}
+
+.menu {
+    text-align: center
+}
+
+caption {
+    color: rgb(66, 2, 66)
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+
+#aboutus {
+
+    background-color: grey;
+    padding: 1.5%;
+
+}
+
+#autores {
+
+    background-color: grey;
+    padding: 1.5%;
+}
+
+#rei {
+
+    background-color: grey;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(219, 168, 230, 0.61);
+}
+
+.active {
+    background-color: rgb(161, 157, 161);
+
+}

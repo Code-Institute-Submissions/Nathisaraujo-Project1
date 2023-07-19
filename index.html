@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,23 +10,33 @@
     <meta name="keywords" content="baby, lullaby, song, book, infant, motherhood">
     <meta name="author" content="For My Baby">
     <title>For My Baby</title>
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <style>
+
+
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1> For My Baby</h1>
-        <p> Compartilhando informações sobre como acalmar o seu bebê.</p>
-    </header>
-
+    <div class="header">
+        <header>
+            <h1>For My Baby</h1>
+            <p>Sharing heartfelt baby's stories</p>
+        </header>
+    </div>
     <hr>
+    <div class="menu">
 
-    <a href="#About">About</a>
-    <a href="#Authors">Authors</a>
-    <a href="#Reviews">Reviews</a>
-    <a href="#Subscribe">Subscribe</a>
-    <a href="#Contact">Contact</a>
-
-    <div>
+        <ul>
+            <li class="active"><a href="./assets/gallery/galeria.html" class="menuitem">Gallery</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Authors">Authors</a></li>
+            <li><a href="#Reviews">Reviews</a></li>
+            <li><a href="#Subscribe">Subscribe</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <div id="aboutus">
 
         <h2 id="About">About the Project</h2>
         <aside>
@@ -38,21 +49,24 @@
                 This is a lot of information about what is the project.
             </p>
         </aside>
-        <table>
-            <caption>Our works</caption>
+        <table class="center">
+
+            <caption><strong>Our Repository</strong></caption>
             <tr>
                 <th>Nathalia</th>
                 <th>Ram Tãopica</th>
             </tr>
             <tr>
-                <td><a href="./sunshine.html">Into the Sunshine</a></td>
-                <td>Captain of the Sea</td>
+                <td><a href="./assets/gallery/sunshine.html">Into the Sunshine</a></td>
+                <td><a href="./assets/gallery/captain.html">Captain of the Sea</a></td>
             </tr>
             <tr>
-                <td>Mama Knows</td>
-                <td>Poo or Boo</td>
+                <td><a href="./assets/gallery/mama.html">Mama knows</a></td>
+                <td><a href="./assets/gallery/poo.html">Poo or Boo</a></td>
             </tr>
+
         </table>
+
 
         <h3>Our purpose</h3>
         <p>This is a lot of information about what is the project.
@@ -62,7 +76,7 @@
         </p>
 
     </div>
-    <div>
+    <div id="autores">
         <h2 id="Authors">The Authors</h2>
 
         <h3>Nathalia</h3>
@@ -92,10 +106,11 @@
         </details>
 
     </div>
-    <div>
+    <div class="rei">
         <h2 id="Reviews">What people think</h2>
         <form>
-            <label>Tell us what you think:</label>
+            <label for="thoughts">Tell us what you think:</label>
+            <br>
             <textarea name="whatyouthink" id="thoughts"
                 placeholder="Write here your experience using the songs and stories from this project" rows="10"
                 cols="40"></textarea>
@@ -106,11 +121,6 @@
         <h2 id="Subscribe">Subscribe!</h2>
 
         <form action="https://www.sendmydatahere.com" method="post">
-            <div>
-                <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
-                <label for="checkbox">I want to receive e-mails at every new post</label>
-            </div>
-            <br>
             <fieldset>
                 <legend>Your details</legend>
                 <div>
@@ -122,15 +132,21 @@
                     <input type="text" name="getdata" id="email-field" required>
                 </div>
                 <div>
-                    <label for="birthdate">Date of Birth:</label>
-                    <input type="date" name="birthdate" id="birthdate">
-                </div>
-                <div>
                     <label for="phone">Phone:</label>
                     <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                 </div>
+                <div>
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+
             </fieldset>
+            <div>
+                <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
+                <label for="checkbox">I want to receive e-mails at every new post</label>
+            </div>
             <br>
+
             <div>
                 <button type="submit">Send!</button>
             </div>
