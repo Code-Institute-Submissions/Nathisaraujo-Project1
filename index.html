@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project for babies">
+    <meta name="keywords" content="baby, lullaby, song, book, infant, motherhood">
+    <meta name="author" content="For My Baby">
     <title>For My Baby</title>
 </head>
 
 <body>
-    <h1> For My Baby</h1>
-    <p> Compartilhando informações sobre como acalmar o seu bebê.</p>
+    <header>
+        <h1> For My Baby</h1>
+        <p> Compartilhando informações sobre como acalmar o seu bebê.</p>
+    </header>
+
     <hr>
+
     <a href="#About">About</a>
     <a href="#Authors">Authors</a>
     <a href="#Reviews">Reviews</a>
@@ -21,26 +28,29 @@
     <div>
 
         <h2 id="About">About the Project</h2>
-        <p>This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-        </p>
+        <aside>
+            <p>This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+            </p>
+        </aside>
         <table>
+            <caption>Our works</caption>
             <tr>
                 <th>Nathalia</th>
                 <th>Ram Tãopica</th>
             </tr>
             <tr>
-                <th>Into the Sunshine</th>
-                <th>Captain of the Sea</th>
+                <td>Into the Sunshine</td>
+                <td>Captain of the Sea</td>
             </tr>
             <tr>
-                <th>Mama Knows</th>
-                <th>Poo or Boo</th>
+                <td>Mama Knows</td>
+                <td>Poo or Boo</td>
             </tr>
         </table>
 
@@ -56,43 +66,74 @@
         <h2 id="Authors">The Authors</h2>
 
         <h3>Nathalia</h3>
-        <p>This is a lot of information about what is the project.
+        <p>This is me.This is me.This is me.This is me.This is me.This is me.</p>
+        <details>
+            <summary>Read More!</summary>
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
-            This is a lot of information about what is the project.</p>
-
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+        </details>
 
         <h3>Ram Tãopica</h3>
-        <p>This is a lot of information about what is the project.
+        <p>This is me.This is me.This is me.This is me.This is me.This is me.</p>
+        <details>
+            <summary>Read More!</summary>
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
-            This is a lot of information about what is the project.</p>
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+        </details>
 
     </div>
     <div>
         <h2 id="Reviews">What people think</h2>
+        <form>
+            <label>Tell us what you think:</label>
+            <textarea name="whatyouthink" id="thoughts"
+                placeholder="Write here your experience using the songs and stories from this project" rows="10"
+                cols="40"></textarea>
+        </form>
+
     </div>
     <div>
         <h2 id="Subscribe">Subscribe!</h2>
 
         <form action="https://www.sendmydatahere.com" method="post">
-
-            <label>Click here if you agree to receive e-mails at every new post</label>
-            <input type="checkbox" id="checkbox">
-
-            <label for="name-field">Name:</label>
-            <input type="text" name="getdata" id="name-field">
-
-            <label for="email-field">Email:</label>
-            <input type="text" name="getdata" id="email-field">
-
-            <input type="submit" />
+            <div>
+                <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
+                <label for="checkbox">I want to receive e-mails at every new post</label>
+            </div>
+            <br>
+            <fieldset>
+                <legend>Your details</legend>
+                <div>
+                    <label for="name-field">Name:</label>
+                    <input type="text" name="getdata" id="name-field" required>
+                </div>
+                <div>
+                    <label for="email-field">Email:</label>
+                    <input type="text" name="getdata" id="email-field" required>
+                </div>
+                <div>
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <button type="submit">Send!</button>
+            </div>
         </form>
     </div>
 
@@ -100,8 +141,13 @@
 <footer>
     <div>
         <h2 id="Contact">Contact Us</h2>
-        <p> <strong>Contact: </strong> <span> nat.advogada@gmail.com</span></p>
+        <p> <strong>Email: </strong> <span>nat.advogada@gmail.com</span></p>
+        <p> <strong>Phone:</strong> <span> +353 085 250 0421</span></p>
     </div>
+    <span>Find us on:</span>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>
 </footer>
 
 </html>
