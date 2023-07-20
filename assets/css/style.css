@@ -4,10 +4,10 @@ body {
 }
 
 h2 {
-    background-color: darkslateblue;
+    background-color: #EDFF7A;
     padding: 5px;
     width: 220px;
-    color: beige;
+    color: #2E282A;
 
 }
 
@@ -16,7 +16,7 @@ h3 {
 }
 
 .header {
-    background-color: lightslategrey;
+    background-color: #63a088;
     color: white;
     text-align: center;
     font-family: Montserrat, Georgia, Confortaa, Verdana;
@@ -26,13 +26,16 @@ h3 {
 }
 
 table {
-    border-color: black;
-    border: 1px solid;
-
+    border: none;
     height: 70px;
     text-align: center;
+    background-color: rgb(145, 145, 145);
+    color: white;
+}
 
-    background-color: grey
+th,
+td {
+    border-bottom: 1px solid rgba(43, 41, 41, 0.281);
 }
 
 .menu {
@@ -50,23 +53,10 @@ caption {
 
 }
 
-#aboutus {
-
-    background-color: grey;
-    padding: 1.5%;
-
-}
-
-#autores {
-
-    background-color: grey;
-    padding: 1.5%;
-}
-
-#rei {
-
-    background-color: grey;
-
+footer {
+    background-color: #63a088;
+    text-decoration: none;
+    padding: 0 15px;
 }
 
 ul {
