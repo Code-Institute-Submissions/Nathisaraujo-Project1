@@ -11,24 +11,30 @@
     <meta name="author" content="For My Baby">
     <title>For My Baby</title>
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <style>
+        body {
+            font-family: "Nunito", sans-serif;
+        }
+    </style>
 
 
     </style>
 </head>
 
 <body>
-    <div class="header">
-        <header>
+    <header>
+        <div class="header">
             <h1>For My Baby</h1>
             <p>Sharing heartfelt baby's stories</p>
-        </header>
-    </div>
-    <hr>
-    <div class="menu">
 
-        <ul>
-            <li class="active"><a href="./assets/gallery/galeria.html" class="menuitem">Gallery</a></li>
+        </div>
+    </header>
+
+    <hr>
+    <div>
+        <ul class="menu">
+            <li><a href="./assets/gallery/galeria.html">Gallery</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#Authors">Authors</a></li>
             <li><a href="#Reviews">Reviews</a></li>
@@ -36,38 +42,28 @@
             <li><a href="#Contact">Contact</a></li>
         </ul>
     </div>
-    <div style="background-color:beige">
+    <hr>
 
-        <h2 id="About">About the Project</h2>
-        <aside>
-            <p>This is a lot of information about what is the project.
-                This is a lot of information about what is the project.
-                This is a lot of information about what is the project.
-                This is a lot of information about what is the project.
-                This is a lot of information about what is the project.
-                This is a lot of information about what is the project.
-                This is a lot of information about what is the project.
-            </p>
-        </aside>
-        <table class="center">
+    <div>
 
-            <caption><strong>Our Repository</strong></caption>
-            <tr>
-                <th>Nathalia</th>
-                <th>Ram Tãopica</th>
-            </tr>
-            <tr>
-                <td><a href="./assets/gallery/sunshine.html">Into the Sunshine</a></td>
-                <td><a href="./assets/gallery/captain.html">Captain of the Sea</a></td>
-            </tr>
-            <tr>
-                <td><a href="./assets/gallery/mama.html">Mama knows</a></td>
-                <td><a href="./assets/gallery/poo.html">Poo or Boo</a></td>
-            </tr>
+        <h2 id="About">About</h2>
 
-        </table>
+        <p>This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+        </p>
 
-
+        <div class="centered-container">
+            <a href="./assets/gallery/galeria.html">
+                <button>
+                    <span>GALLERY</span>
+                </button>
+            </a>
+        </div>
         <h3>Our purpose</h3>
         <p>This is a lot of information about what is the project.
             This is a lot of information about what is the project.
@@ -76,8 +72,8 @@
         </p>
 
     </div>
-    <div id="autores" style="background-color:beige">
-        <h2 id="Authors">The Authors</h2>
+    <div id="autores">
+        <h2 id="Authors">Authors</h2>
 
         <h3>Nathalia</h3>
         <p>This is me.This is me.This is me.This is me.This is me.This is me.</p>
@@ -106,8 +102,9 @@
         </details>
 
     </div>
-    <div style="background-color:beige">
-        <h2 id="Reviews">What people think</h2>
+
+    <div>
+        <h2 id="Subscribe">Subscribe!</h2>
         <form>
             <label for="thoughts">Tell us what you think:</label>
             <br>
@@ -115,11 +112,6 @@
                 placeholder="Write here your experience using the songs and stories from this project" rows="10"
                 cols="40"></textarea>
         </form>
-
-    </div>
-    <div style="background-color:beige">
-        <h2 id="Subscribe">Subscribe!</h2>
-
         <form action="https://www.sendmydatahere.com" method="post">
             <fieldset>
                 <legend>Your details</legend>
@@ -154,13 +146,14 @@
     </div>
 
 </body>
-<footer>
-    <div>
-        <h2 id="Contact">Contact Us</h2>
-        <p> <strong>Email: </strong> <span>nat.advogada@gmail.com</span></p>
-        <p> <strong>Phone:</strong> <span> +353 085 250 0421</span></p>
-    </div>
-    <span>Find us on:</span>
+<footer id="footer">
+
+    <h3 id="Contact">Contact Us</h3>
+    <p> <strong>Email: </strong> <span>nat.advogada@gmail.com</span></p>
+    <p> <strong>Phone:</strong> <span> +353 085 250 0421</span></p>
+
+    <span><strong>Find us on:</strong></span>
+    <br>
     <a href="https://www.facebook.com/" target="_blank">Facebook</a>
     <a href="https://www.instagram.com/" target="_blank">Instagram</a>
     <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>

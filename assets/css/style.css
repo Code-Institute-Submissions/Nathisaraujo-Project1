@@ -4,24 +4,25 @@ body {
 }
 
 h2 {
-    background-color: #EDFF7A;
+    text-align: center;
     padding: 5px;
-    width: 220px;
-    color: #2E282A;
+    color: #241530;
+    font-size: 50px;
+    font-family: Montserrat, Georgia, Confortaa, Verdana;
 
 }
 
 h3 {
-    color: darkslateblue
+    color: rgb(30, 26, 56)
 }
 
 .header {
-    background-color: #63a088;
+    background-color: #8d75a1;
     color: white;
-    text-align: center;
+    text-align: left;
     font-family: Montserrat, Georgia, Confortaa, Verdana;
     vertical-align: middle;
-    padding: 60px;
+    padding: 10px;
     font: size 15px;
 }
 
@@ -39,7 +40,8 @@ td {
 }
 
 .menu {
-    text-align: center
+    text-align: left;
+
 }
 
 caption {
@@ -54,37 +56,36 @@ caption {
 }
 
 footer {
-    background-color: #63a088;
+    background-color: #8d75a1;
     text-decoration: none;
     padding: 0 15px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: inline-block;
+.centered-container button {
+    background-color: #4CAF50;
     color: white;
+    padding: 60px 20px;
+    border: nome;
+    cursor: pointer;
+
+
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2~p {
+    padding: 10px 60px 10px 60px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#footer {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: rgba(219, 168, 230, 0.61);
-}
-
-.active {
-    background-color: rgb(161, 157, 161);
+    font-size: 15px;
 
 }
