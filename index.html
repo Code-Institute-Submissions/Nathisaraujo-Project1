@@ -6,20 +6,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project for babies">
-    <meta name="keywords" content="baby, lullaby, song, book, infant, motherhood">
+    <meta name="description" content="storied for babies">
+    <meta name="keywords" content="baby, children, song, book, creativity, stories, imagination">
     <meta name="author" content="For My Baby">
     <title>For My Baby</title>
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
-    <style>
-        body {
-            font-family: "Nunito", sans-serif;
-        }
-    </style>
-
-
-    </style>
 </head>
 
 <body>
@@ -27,54 +19,58 @@
         <div class="header">
             <h1>For My Baby</h1>
             <p>Sharing heartfelt baby's stories</p>
-
         </div>
     </header>
-
-    <hr>
-    <div>
-        <ul class="menu">
-            <li><a href="./assets/gallery/galeria.html">Gallery</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Authors">Authors</a></li>
-            <li><a href="#Reviews">Reviews</a></li>
-            <li><a href="#Subscribe">Subscribe</a></li>
-            <li><a href="#Contact">Contact</a></li>
+    <nav class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#authors">Authors</a></li>
+            <li><a href="#readmore">Read More</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
+    <br>
+    <div id="home" class="transparent-box">
+      <div>  <p class="float-left"> This is a lot of information about what is the project.
+            This is a lot of information about what is the project.
+            This is a lot of information about what is the project.</p>
+            </div>
+            <div>
+        <img class="float-right" width="300px" src="./assets/images/Thomas_88.jpg">
+        </div>
     </div>
-    <hr>
-
-    <div>
-
-        <h2 id="About">About</h2>
-
-        <p>This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-        </p>
-
-        <div class="centered-container">
-            <a href="./assets/gallery/galeria.html">
+    <br>
+    <h2 id="gallery" class="text-center">Gallery</h2>
+        <div class="centered-container text-center">
+            <a href="./assets/gallery/captain.html">
                 <button>
-                    <span>GALLERY</span>
+                    <span>Captain of
+                        <br>the Sea</span>
+                </button>
+            </a>
+            <a href="./assets/gallery/mama.html">
+                <button>
+                    <span>Mama Knows</span>
+                </button>
+            </a>
+            <a href="./assets/gallery/poo.html">
+                <button>
+                    <span>Poo or Boo</span>
+                </button>
+            </a>
+            <a href="./assets/gallery/sunshine.html">
+                <button>
+                    <span>Into the
+                        <br>Sunshine</span>
                 </button>
             </a>
         </div>
-        <h3>Our purpose</h3>
-        <p>This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-        </p>
-
     </div>
+<br>
+    <h2 id="authors" class="text-center">Authors</h2>
     <div id="autores">
-        <h2 id="Authors">Authors</h2>
-
+        <div id="nathalia">
         <h3>Nathalia</h3>
         <p>This is me.This is me.This is me.This is me.This is me.This is me.</p>
         <details>
@@ -87,7 +83,9 @@
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
         </details>
+        </div>
 
+        <div id="ram">
         <h3>Ram Tãopica</h3>
         <p>This is me.This is me.This is me.This is me.This is me.This is me.</p>
         <details>
@@ -100,11 +98,19 @@
             This is a lot of information about what is the project.
             This is a lot of information about what is the project.
         </details>
-
+        </div>
     </div>
-
+    <br>
     <div>
-        <h2 id="Subscribe">Subscribe!</h2>
+        <h2 id="readmore" class="text-center">Read More</h2>
+        <div class="transparent-box">
+        <p class="float-left">See here more about this topic, daí insert video and links</p>
+        <iframe class="float-right" width="500" height="300" src="https://www.youtube.com/watch?v=WRS9Gek4V5Q" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    <div>
+        <h2 id="subscribe" class="text-center">Subscribe!</h2>
         <form>
             <label for="thoughts">Tell us what you think:</label>
             <br>
@@ -131,27 +137,24 @@
                     <label for="birthdate">Date of Birth:</label>
                     <input type="date" name="birthdate" id="birthdate">
                 </div>
-
             </fieldset>
+
             <div>
                 <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
                 <label for="checkbox">I want to receive e-mails at every new post</label>
             </div>
             <br>
-
             <div>
                 <button type="submit">Send!</button>
             </div>
         </form>
     </div>
-
 </body>
-<footer id="footer">
 
-    <h3 id="Contact">Contact Us</h3>
+<footer id="footer">
+    <h3 id="contact">Contact Us</h3>
     <p> <strong>Email: </strong> <span>nat.advogada@gmail.com</span></p>
     <p> <strong>Phone:</strong> <span> +353 085 250 0421</span></p>
-
     <span><strong>Find us on:</strong></span>
     <br>
     <a href="https://www.facebook.com/" target="_blank">Facebook</a>

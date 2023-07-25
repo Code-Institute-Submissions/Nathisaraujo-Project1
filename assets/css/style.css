@@ -1,91 +1,133 @@
-body {
-
-    align-content: center;
-}
-
-h2 {
-    text-align: center;
-    padding: 5px;
-    color: #241530;
-    font-size: 50px;
-    font-family: Montserrat, Georgia, Confortaa, Verdana;
-
-}
-
-h3 {
-    color: rgb(30, 26, 56)
-}
-
-.header {
-    background-color: #8d75a1;
-    color: white;
+header {
+    background-image: url('../images/Thomas_44.jpg');
+    background-size: cover;
+    background-position: 80% 50%;
+    width: 100%;
+    height: 250px;
+    color: whitesmoke;
     text-align: left;
     font-family: Montserrat, Georgia, Confortaa, Verdana;
     vertical-align: middle;
-    padding: 10px;
-    font: size 15px;
+    font-size: 30px;
+    margin: none;
+}
+#autores {
+    display:flex
 }
 
-table {
-    border: none;
-    height: 70px;
+#nathalia {
+    background-color: rgba(51, 31, 12, 0.89);
+    height: 500px;
+    width: 550px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex: 1;
+}
+#ram {
+    background-color: rgba(51, 31, 12, 0.89);
+    height: 500px;
+    width: 550px;
+    border-radius: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    flex: 1;
+}
+.text-center {
     text-align: center;
-    background-color: rgb(145, 145, 145);
-    color: white;
 }
 
-th,
-td {
-    border-bottom: 1px solid rgba(43, 41, 41, 0.281);
-}
-
-.menu {
+h1 {
     text-align: left;
-
+    padding-top: 100px;
+    padding-left: 25px;
 }
 
-caption {
-    color: rgb(66, 2, 66)
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-
-}
-
-footer {
-    background-color: #8d75a1;
-    text-decoration: none;
-    padding: 0 15px;
-}
-
-.centered-container button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 60px 20px;
-    border: nome;
-    cursor: pointer;
-
-
-}
-
-.centered-container {
+.transparent-box {
+    font-size: 35px;
+    background-color: rgb(88, 80, 73, 0.5);
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-attachment: fixed;
     display: flex;
-    justify-content: center;
     align-items: center;
 
 }
 
-h2~p {
-    padding: 10px 60px 10px 60px;
-    font-size: 25px;
-    text-align: justify;
+.transparent {
+    background-color: rgb(133, 133, 133, 0.75)
 }
 
-#footer {
-    text-align: center;
-    font-size: 15px;
 
+button {
+    background-color: rgb(122, 94, 67);
+    width: 200px;
+    height: 180px;
+    border: none;
+    border-radius: 8px;
+    font-family: Montserrat, Georgia, Confortaa, Verdana;
+    font-size: 30px;
+
+}
+
+button[type=submit] {
+    margin-left: 0.75rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    background-color: #5e361b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(194, 192, 191, 0.795);
+}
+
+.float-left {
+    float:left;
+    text-align:left;
+    flex: 1;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    color: black;
 }
