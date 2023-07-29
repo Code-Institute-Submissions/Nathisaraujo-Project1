@@ -1,10 +1,10 @@
 header {
-    background-image: url('../images/Thomas_44.jpg');
+    background-image: url('../images/CAPA.png');
     background-size: cover;
     background-position: 80% 50%;
     width: 100%;
-    height: 350px;
-    color: whitesmoke;
+    height: 300px;
+    color: #333;
     text-align: left;
     font-family: Montserrat, Georgia, Confortaa, Verdana;
     vertical-align: middle;
@@ -25,7 +25,7 @@ header {
 .radiusdois {
     border-radius: 10%;
     overflow: hidden;
-    padding:0;
+    padding: 0;
     display: block;
 }
 
@@ -43,13 +43,13 @@ header {
     float: left;
     text-align: left;
     flex: 1;
-    color: White;
+    color: #edffd9;
     font-size: 20px;
     width: 250px;
 }
 
 #nathalia {
-    background-color: rgba(51, 31, 12, 0.89);
+    background-color: #645b54d0;
     height: 500px;
     width: 550px;
     border-radius: 15px;
@@ -61,7 +61,7 @@ header {
 }
 
 #ram {
-    background-color: rgba(51, 31, 12, 0.89);
+    background-color: #645b54d0;
     height: 500px;
     width: 550px;
     border-radius: 15px;
@@ -84,8 +84,8 @@ h1 {
 }
 
 .transparent-box {
-    font-size: 35px;
-    background-color: rgb(88, 80, 73, 0.5);
+    font-size: 25px;
+    background-color: #645b54d0;
     padding: 20px;
     height: 300px;
     text-align: center;
@@ -95,16 +95,12 @@ h1 {
     background-attachment: fixed;
     display: flex;
     align-items: center;
+    
 
 }
-
-.transparent {
-    background-color: rgb(133, 133, 133, 0.75);
-}
-
 
 button {
-    background-color: rgb(122, 94, 67);
+    background-color: #645b54d0;
     width: 200px;
     height: 180px;
     border: none;
@@ -113,6 +109,7 @@ button {
     font-size: 30px;
     margin-right: 15px;
     cursor: pointer;
+    color:#edffd9;
 
 }
 
@@ -121,8 +118,8 @@ button[type=submit] {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     padding: 0.75rem;
-    background-color: #5e361b;
-    color: white;
+    background-color: #645b54d0;
+    color: #edffd9;
     border: none;
     border-radius: 8px;
     width: 100px;
@@ -143,21 +140,22 @@ ul {
 
 li a {
     display: block;
-    color: white;
+    color: #edffd9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     float: left;
+    font-size: 20px;
 }
 
 body {
     margin: 0;
-    background-color: rgba(194, 192, 191, 0.75);
+    background-color: rgba(129, 126, 126, 0.616);
 }
 
 .float-left {
     float: left;
-    text-align: center;
+    text-align: left;
     flex: 1;
 }
 
@@ -170,12 +168,12 @@ body {
 
 h2 {
     font-size: 50px;
-    color: black;
+    color: #333;
 }
 
 footer {
     background-color: #333;
-    color: white;
+    color: #edffd9;
     height: 50px;
     padding: 5px;
     text-align: center;
@@ -184,25 +182,27 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 3;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .subs-left {
-    font-size: 20px;
-    background-color: rgba(41, 37, 33, 0.719);
+    font-size: 25px;
+    background-color: #7c90a0;
     margin-left: 200px;
     margin-right: 200px;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    color: rgb(250, 250, 250);
-    }
+    color: #333;
+}
 
 .subs-right {
     font-size: 17px;
-    text-align:center;
-    color: white;
+    text-align: center;
+    color: #333;
     margin-left: 500px;
-        margin-right: 500px;
+    margin-right: 500px;
 }
 
 .container {
@@ -215,9 +215,9 @@ footer {
 
 .form {
     border-style: solid;
-    border-color: black;
+    border-color: #333;
     border-radius: 30px;
-    background-color: rgb(133, 133, 133, 0.75);
+    background-color: #645b54d0;
     padding: 20px;
     max-width: 300px;
     width: 80%;
@@ -230,11 +230,11 @@ footer {
 
 .read-more {
     z-index: 3;
-    background-color: rgb(255, 255, 255);
+    background-color: #645b54d0;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
-    color: black;
+    color: #edffd9;
     z-index: 3;
     text-align: justify;
 }
@@ -430,7 +430,7 @@ summary {
         height: 50px;
         padding: 5px;
         text-align: center;
-    
+
     }
 
     .subs-left {
@@ -465,7 +465,7 @@ summary {
         border-color: black;
         border-radius: 30px;
         background-color: rgb(133, 133, 133, 0.75);
-        margin:none;
+        margin: none;
         max-width: 60vw;
         padding: 5px;
 
