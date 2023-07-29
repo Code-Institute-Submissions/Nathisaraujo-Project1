@@ -9,8 +9,6 @@ header {
     font-family: Montserrat, Georgia, Confortaa, Verdana;
     vertical-align: middle;
     font-size: 30px;
-
-
 }
 
 #autores {
@@ -21,6 +19,13 @@ header {
     border-radius: 10%;
     overflow: hidden;
     padding-top: 25px;
+    display: block;
+}
+
+.radiusdois {
+    border-radius: 10%;
+    overflow: hidden;
+    padding:0;
     display: block;
 }
 
@@ -66,6 +71,7 @@ header {
     margin-left: 25px;
     flex: 1;
 }
+
 
 .text-center {
     text-align: center;
@@ -151,7 +157,7 @@ body {
 
 .float-left {
     float: left;
-    text-align: left;
+    text-align: center;
     flex: 1;
 }
 
@@ -159,6 +165,8 @@ body {
     float: right;
     margin-left: 20px;
 }
+
+
 
 h2 {
     font-size: 50px;
@@ -179,26 +187,26 @@ footer {
 }
 
 .subs-left {
-    flex: 1;
-    font-size: 35px;
+    font-size: 20px;
     background-color: rgba(41, 37, 33, 0.719);
+    margin-left: 200px;
+    margin-right: 200px;
     padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-radius: 20px;
-    text-align: left;
-    color: black;
-    width: 300px;
-}
+    text-align: center;
+    color: rgb(250, 250, 250);
+    }
 
 .subs-right {
     font-size: 17px;
-    flex: 1;
+    text-align:center;
     color: white;
+    margin-left: 500px;
+        margin-right: 500px;
 }
 
 .container {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 
@@ -218,6 +226,22 @@ footer {
 
 .formfields {
     padding: 2.5px;
+}
+
+.read-more {
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+    z-index: 3;
+    text-align: justify;
+}
+
+summary {
+    cursor: pointer;
+    z-index: 3;
 }
 
 @media screen and (max-width: 767px) {
@@ -261,7 +285,7 @@ footer {
         height: 300px;
         text-align: center;
         border-radius: 20px;
-        margin-left: 25px;
+        margin-left: 55px;
         background-attachment: fixed;
         display: block;
         align-items: center;
@@ -287,7 +311,7 @@ footer {
         border-radius: 15px;
         padding-left: none;
         padding-right: none;
-        margin-left: none;
+        margin-left: 50px;
         margin-right: none;
         flex: none;
     }
@@ -300,7 +324,7 @@ footer {
         padding-right: none;
         padding-left: none;
         margin-right: none;
-        margin-left: none;
+        margin-left: 50px;
         margin-top: 35px;
         flex: none;
         z-index: 0;
@@ -406,11 +430,7 @@ footer {
         height: 50px;
         padding: 5px;
         text-align: center;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        z-index: 3;
+    
     }
 
     .subs-left {
@@ -445,8 +465,7 @@ footer {
         border-color: black;
         border-radius: 30px;
         background-color: rgb(133, 133, 133, 0.75);
-        margin-left: 4px;
-        margin-top: 25px;
+        margin:none;
         max-width: 60vw;
         padding: 5px;
 

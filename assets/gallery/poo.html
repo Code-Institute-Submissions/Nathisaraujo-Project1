@@ -5,23 +5,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="storied for babies">
+    <meta name="keywords" content="baby, children, song, book, creativity, stories, imagination">
+    <meta name="author" content="Poo or Boo">
     <title>Poo or Boo</title>
+    <style>
+        header {
+            color: #333;
+            text-align: middle;
+            font-family: Montserrat, Georgia, Confortaa, Verdana;
+            font-size: 20px;
+            background-color: rgba(158, 152, 152, 0.596);
+            padding: 10px;
+            background-attachment: fixed;
+        }
+
+
+        .transparent-box {
+            font-size: 17px;
+            background-color: rgba(88, 80, 73, 0.815);
+            padding: 20px;
+            height: 500px;
+            text-align: center;
+            border-radius: 20px;
+            margin-left: 150px;
+            margin-right: 150px;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        #back {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+        }
+
+        #next {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: right;
+        }
+
+        body {
+            margin: 0;
+            background-color: rgba(73, 69, 68, 0.75);
+            background-image: url('../images/Thomas_129.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: 70% 40%;
+        }
+
+        .float-left {
+            float: left;
+            text-align: left;
+            flex: 1;
+
+        }
+
+        .float-right {
+            float: right;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            height: 50px;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+
 </head>
 
 <body>
-    <header>
+    <header style="text-align: center;">
         <h1> Poo or Boo</h1>
-        <p> Veja abaixo a música</p>
+        <p>by Ram Tãopica</p>
     </header>
-
-    <hr>
-
-
-    <div>
-
-        <h2 id="About">About the Project</h2>
-        <aside>
+    <nav>
+        <ul>
+            <li><a href="./index.html" id="back">Back to homepage</a></li>
+            <li><a href="./assets/gallery/sunshine.html" id="next"> Next - Into the Sunshine</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="transparent-box">
+        <div class="float-left">
+            <h2>Lyrics</h2>
             <p>This is a lot of information about what is the project.
                 This is a lot of information about what is the project.
                 This is a lot of information about what is the project.
@@ -30,19 +118,30 @@
                 This is a lot of information about what is the project.
                 This is a lot of information about what is the project.
             </p>
-        </aside>
 
+            <h2>Context</h2>
 
-        <h3>Our purpose</h3>
-        <p>This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-            This is a lot of information about what is the project.
-        </p>
-
+            <p>This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+                This is a lot of information about what is the project.
+            </p>
+        </div>
+        <div>
+            <img class="float-right" width="250px" src="./assets/images/cloud.jpg">
+        </div>
     </div>
 
 
+
 </body>
+<br>
+<footer>
+    <span><strong>Find us on:</strong></span>
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>
+    <p>@Copyright Something</p>
+</footer>
 
 </html>
