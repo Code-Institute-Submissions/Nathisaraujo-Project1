@@ -1,12 +1,12 @@
 header {
-    background-image: url('../images/CAPA.png');
+    background-image: url('../images/capa.jpg');
     background-size: cover;
     background-position: 80% 50%;
     width: 100%;
-    height: 300px;
+    height: 160px;
     color: #333;
     text-align: left;
-    font-family: Montserrat, Georgia, Confortaa, Verdana;
+    font-family: Times, Georgia, Confortaa, Verdana;
     vertical-align: middle;
     font-size: 30px;
 }
@@ -14,6 +14,25 @@ header {
 #autores {
     display: flex;
 }
+.third-box {
+        display: flex;
+    }
+
+.contact {
+background-color: #645b54d0;
+    border-style: solid;
+        border-color: #333;
+        border-radius: 30px;
+    padding: 0;
+    margin-left:250px;
+    height: 250px;
+        flex: 1;
+        float: left;
+        width: 100px;
+    }
+
+
+
 
 .radiuscem {
     border-radius: 10%;
@@ -46,29 +65,24 @@ header {
     color: #edffd9;
     font-size: 20px;
     width: 250px;
+    margin: 0;
 }
 
 #nathalia {
     background-color: #645b54d0;
-    height: 500px;
-    width: 550px;
     border-radius: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+  padding: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
     flex: 1;
 }
 
 #ram {
     background-color: #645b54d0;
-    height: 500px;
-    width: 550px;
     border-radius: 15px;
-    padding-right: 25px;
-    padding-left: 25px;
-    margin-right: 25px;
-    margin-left: 25px;
+padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     flex: 1;
 }
 
@@ -83,21 +97,44 @@ h1 {
     margin: 0px;
 }
 
-.transparent-box {
+.first-box {
     font-size: 25px;
     background-color: #645b54d0;
-    padding: 20px;
+    padding: 30px;
     height: 300px;
     text-align: center;
     border-radius: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-attachment: fixed;
     display: flex;
     align-items: center;
-    
-
 }
+.second-box {
+    font-size: 25px;
+    background-color: #645b54d0;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.facts {
+    float: left;
+        text-align: left;
+        flex: 1;
+        padding-left: 50px;
+}
+
+.interests {
+    float: right;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
 
 button {
     background-color: #645b54d0;
@@ -148,23 +185,37 @@ li a {
     font-size: 20px;
 }
 
+.list {
+text-align: left;
+font-size: 20px;
+}
+
 body {
     margin: 0;
     background-color: rgba(129, 126, 126, 0.616);
 }
 
-.float-left {
+.name-box {
     float: left;
     text-align: left;
     flex: 1;
 }
 
-.float-right {
+.description-box {
     float: right;
-    margin-left: 20px;
+    margin-left:50px;
 }
 
+.feedback-one {
+    float: left;
+    text-align: left;
+    flex: 1;
+}
 
+.feedback-two {
+    float: right;
+    margin-left: 50px;
+}
 
 h2 {
     font-size: 50px;
@@ -185,34 +236,6 @@ footer {
     font-size: 15px;
     text-transform: uppercase;
 }
-
-.subs-left {
-    font-size: 25px;
-    background-color: #7c90a0;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    color: #333;
-}
-
-.subs-right {
-    font-size: 17px;
-    text-align: center;
-    color: #333;
-    margin-left: 500px;
-    margin-right: 500px;
-}
-
-.container {
-    display: block;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
 .form {
     border-style: solid;
     border-color: #333;
@@ -221,7 +244,10 @@ footer {
     padding: 20px;
     max-width: 300px;
     width: 80%;
-
+    margin-left: 250px;
+    margin-right: 250px;
+    flex: 1;
+    float: right;
 }
 
 .formfields {
