@@ -10,93 +10,6 @@ header {
     vertical-align: middle;
     font-size: 30px;
 }
-
-#autores {
-    display: flex;
-}
-.third-box {
-        display: flex;
-    }
-
-.contact {
-background-color: #645b54d0;
-    border-style: solid;
-        border-color: #333;
-        border-radius: 30px;
-    padding: 0;
-    margin-left:250px;
-    height: 250px;
-        flex: 1;
-        float: left;
-        width: 100px;
-    }
-
-
-
-
-.radiuscem {
-    border-radius: 10%;
-    overflow: hidden;
-    padding-top: 25px;
-    display: block;
-}
-
-.radiusdois {
-    border-radius: 10%;
-    overflow: hidden;
-    padding: 0;
-    display: block;
-}
-
-.radiuspic {
-    border-radius: 10%;
-    padding-top: 25px;
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
-    margin: 0;
-    display: none;
-}
-
-.authorleft {
-    float: left;
-    text-align: left;
-    flex: 1;
-    color: #edffd9;
-    font-size: 20px;
-    width: 250px;
-    margin: 0;
-}
-
-#nathalia {
-    background-color: #645b54d0;
-    border-radius: 15px;
-  padding: 10px;
-        margin-right: 20px;
-        margin-left: 20px;
-    flex: 1;
-}
-
-#ram {
-    background-color: #645b54d0;
-    border-radius: 15px;
-padding: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
-    flex: 1;
-}
-
-
-.text-center {
-    text-align: center;
-}
-
-h1 {
-    text-align: left;
-    vertical-align: center;
-    margin: 0px;
-}
-
 .first-box {
     font-size: 25px;
     background-color: #645b54d0;
@@ -109,6 +22,24 @@ h1 {
     background-attachment: fixed;
     display: flex;
     align-items: center;
+}
+.name-box {
+    float: left;
+    text-align: left;
+    flex: 1;
+}
+.description-box {
+    float: right;
+    margin-left: 50px;
+}
+.radiusdois {
+    border-radius: 10%;
+    overflow: hidden;
+    padding: 0;
+    display: block;
+}
+.text-center {
+    text-align: center;
 }
 .second-box {
     font-size: 25px;
@@ -124,18 +55,112 @@ h1 {
 }
 .facts {
     float: left;
-        text-align: left;
-        flex: 1;
-        padding-left: 50px;
+    text-align: left;
+    flex: 1;
+    padding-left: 50px;
 }
-
 .interests {
     float: right;
     margin-left: 50px;
     padding-right: 50px;
 }
-
-
+#autores {
+    display: flex;
+}
+#nathalia {
+    background-color: #645b54d0;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex: 1;
+}
+.read-more {
+    z-index: 3;
+    background-color: #645b54d0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #edffd9;
+    z-index: 3;
+    text-align: justify;
+}
+summary {
+    cursor: pointer;
+    z-index: 3;
+}
+.feedback-two {
+    float: right;
+    margin-left: 50px;
+}
+.radiuscem {
+    border-radius: 10%;
+    overflow: hidden;
+    padding-top: 25px;
+    display: block;
+}
+.radiuspic {
+    border-radius: 10%;
+    padding-top: 25px;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    display: none;
+}
+.authorleft {
+    float: left;
+    text-align: left;
+    flex: 1;
+    color: #edffd9;
+    font-size: 20px;
+    width: 250px;
+    margin: 0;
+}
+#ram {
+    background-color: #645b54d0;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex: 1;
+}
+.third-box {
+    display: flex;
+}
+.contact {
+    background-color: #645b54d0;
+    border-style: solid;
+    border-color: #333;
+    border-radius: 30px;
+    padding: 0;
+    margin-left: 250px;
+    height: 250px;
+    flex: 1;
+    float: left;
+    width: 100px;
+}
+.form {
+    border-style: solid;
+    border-color: #333;
+    border-radius: 30px;
+    background-color: #645b54d0;
+    padding: 20px;
+    max-width: 300px;
+    width: 80%;
+    margin-left: 250px;
+    margin-right: 250px;
+    flex: 1;
+    float: right;
+}
+.formfields {
+    padding: 2.5px;
+}
+h1 {
+    text-align: left;
+    vertical-align: center;
+    margin: 0px;
+}
 button {
     background-color: #645b54d0;
     width: 200px;
@@ -146,10 +171,9 @@ button {
     font-size: 30px;
     margin-right: 15px;
     cursor: pointer;
-    color:#edffd9;
+    color: #edffd9;
 
 }
-
 button[type=submit] {
     margin-left: 0.75rem;
     margin-top: 0.75rem;
@@ -165,8 +189,6 @@ button[type=submit] {
     text-align: center;
     cursor: pointer;
 }
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -174,7 +196,6 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
 li a {
     display: block;
     color: #edffd9;
@@ -184,44 +205,14 @@ li a {
     float: left;
     font-size: 20px;
 }
-
-.list {
-text-align: left;
-font-size: 20px;
-}
-
 body {
     margin: 0;
     background-color: rgba(129, 126, 126, 0.616);
 }
-
-.name-box {
-    float: left;
-    text-align: left;
-    flex: 1;
-}
-
-.description-box {
-    float: right;
-    margin-left:50px;
-}
-
-.feedback-one {
-    float: left;
-    text-align: left;
-    flex: 1;
-}
-
-.feedback-two {
-    float: right;
-    margin-left: 50px;
-}
-
 h2 {
     font-size: 50px;
     color: #333;
 }
-
 footer {
     background-color: #333;
     color: #edffd9;
@@ -236,296 +227,95 @@ footer {
     font-size: 15px;
     text-transform: uppercase;
 }
-.form {
-    border-style: solid;
-    border-color: #333;
-    border-radius: 30px;
-    background-color: #645b54d0;
-    padding: 20px;
-    max-width: 300px;
-    width: 80%;
-    margin-left: 250px;
-    margin-right: 250px;
+/*/ achar onde encaixar isso /*/
+.feedback-one {
+    float: left;
+    text-align: left;
     flex: 1;
-    float: right;
 }
-
-.formfields {
-    padding: 2.5px;
-}
-
-.read-more {
-    z-index: 3;
-    background-color: #645b54d0;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    color: #edffd9;
-    z-index: 3;
-    text-align: justify;
-}
-
-summary {
-    cursor: pointer;
-    z-index: 3;
-}
-
 @media screen and (max-width: 767px) {
-
-    header {
-        background-image: url('../images/Thomas_44.jpg');
-        background-size: cover;
-        background-position: 80% 50%;
-        height: 200px;
-        color: whitesmoke;
-        text-align: left;
-        font-family: Montserrat, Georgia, Confortaa, Verdana;
-        vertical-align: middle;
-        font-size: 15px;
-        margin: 0;
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 6px;
-        text-decoration: none;
-        float: left;
+header {
         font-size: 15px;
     }
-
-    .transparent-box {
+li a {
+        padding: 10px 5px;
         font-size: 15px;
-        background-color: rgb(88, 80, 73, 0.5);
-        padding: none;
-        width: 60vw;
-        height: 300px;
-        text-align: center;
-        border-radius: 20px;
-        margin-left: 55px;
-        background-attachment: fixed;
-        display: block;
-        align-items: center;
-        justify-content: center;
     }
-
-    .float-left {
-        float: none;
-        text-align: center;
-        flex: none;
-    }
-
-    .float-right {
-        float: none;
-        margin-left: none;
-        text-align: center;
-    }
-
-    #nathalia {
-        background-color: rgba(51, 31, 12, 0.89);
-        height: 500px;
-        width: 60vw;
-        border-radius: 15px;
-        padding-left: none;
-        padding-right: none;
-        margin-left: 50px;
-        margin-right: none;
-        flex: none;
-    }
-
-    #ram {
-        background-color: rgba(51, 31, 12, 0.89);
-        height: 500px;
-        width: 60vw;
-        border-radius: 15px;
-        padding-right: none;
-        padding-left: none;
-        margin-right: none;
-        margin-left: 50px;
-        margin-top: 35px;
-        flex: none;
-        z-index: 0;
-    }
-
-    #autores {
-        display: block;
-        z-index: 1;
-    }
-
-    .radiuscem {
-        border-radius: 10%;
-        overflow: hidden;
-        width: 100%;
-        height: 150px;
-        margin: 0;
-        display: none;
-    }
-
-    .radiuspic {
-        border-radius: 10%;
-        padding-top: 25px;
-        overflow: hidden;
-        width: 100%;
-        height: 250px;
-        margin: 0;
-        display: block;
-    }
-
-    .authorleft {
-        float: none;
-        text-align: left;
-        flex: none;
-        color: White;
-        font-size: 15px;
-        width: 60vw;
-        z-index: 1;
-    }
-
-    .text-center {
-        text-align: center;
-        z-index: 1;
-
-    }
-
-    h1 {
-        text-align: left;
-        vertical-align: center;
-        margin: 0px;
-        z-index: 1;
-    }
-
-    .transparent {
-        background-color: rgb(133, 133, 133, 0.75);
-        z-index: 1;
-    }
-
-    button {
-        background-color: rgb(122, 94, 67);
-        width: 40vw;
-        height: 180px;
-        border: none;
-        border-radius: 8px;
-        font-family: Montserrat, Georgia, Confortaa, Verdana;
-        font-size: 30px;
-        margin-left: none;
-        margin-bottom: 15px;
-
-
-    }
-
-    button[type=submit] {
-        margin-left: 0.75rem;
-        margin-top: 0.75rem;
-        margin-bottom: 0.75rem;
-        padding: 0.75rem;
-        background-color: #5e361b;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        width: 100px;
-        height: 50px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    body {
-        margin: 0 auto;
-        background-color: rgba(194, 192, 191, 0.75);
-        max-width: 767px;
-        z-index: 1;
-    }
-
-    h2 {
-        font-size: 50px;
-        color: black;
-        z-index: 2;
-    }
-
-    footer {
-        background-color: #333;
-        color: white;
-        height: 50px;
-        padding: 5px;
-        text-align: center;
-
-    }
-
-    .subs-left {
-        flex: none;
-        font-size: 15px;
-        background-color: rgba(41, 37, 33, 0.719);
-        padding: none;
-        margin-left: none;
-        margin-right: none;
-        border-radius: 20px;
-        text-align: left;
-        color: black;
-        width: 200px;
-    }
-
-    .subs-right {
-        font-size: 15px;
-        flex: none;
-        color: rgb(44, 44, 44);
-    }
-
-    .container {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        z-index: 1;
-
-    }
-
-    .form {
-        border-style: solid;
-        border-color: black;
-        border-radius: 30px;
-        background-color: rgb(133, 133, 133, 0.75);
-        margin: none;
-        max-width: 60vw;
-        padding: 5px;
-
-    }
-
-    .formfields {
-        padding: 2.5px;
-    }
-
-    iframe {
-        width: 60vw;
-        height: 200px;
-        align-content: center;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .image-media {
-        width: 60vw;
-        border-radius: 20px;
-        margin: 0;
-    }
-
-    .read-more {
-        z-index: 3;
-        background-color: rgb(255, 255, 255);
-        padding: 10px;
-        border-radius: 5px;
-        margin-top: 10px;
-        color: black;
-        z-index: 3;
-    }
-
-    summary {
-        cursor: pointer;
-        z-index: 3;
-    }
+.first-box {
+    font-size: 15px;
+   padding-left: 10px;
+    height: 200px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    background-image: url('../images/na.jpg');
+    background-position: 70% 40%;
+    text-align:left;
+    color: black;
+}
+.description-box {
+    display:none;
+}
+button {
+    width: 200px;
+    height: 180px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.second-box {
+    font-size: 15px;
+padding-left: 10px;
+    height: 350px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    text-align: left;
+    color: black;
+}
+#autores {
+    display: block;
+}
+#nathalia {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 450px;
+    width: 300px;
+    flex: none;
+}
+.read-more {
+    background-color: white;
+    color: #333;
+}
+.radiuscem {
+    display: none;
+}
+.radiuspic {
+    width: 300px;
+    height: 100;
+    display: block;
+}
+.authorleft {
+    flex: none;
+    font-size: 15px;
+    width: 300px;
+    margin: 0;
+}
+#ram {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 450px;
+    width: 300px;
+    flex: none;
+}
+footer {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 40px;}
+}
