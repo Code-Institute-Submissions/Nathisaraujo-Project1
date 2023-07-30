@@ -63,6 +63,7 @@ header {
     text-align: left;
     flex: 1;
     padding-left: 50px;
+    color: white;
 }
 
 .interests {
@@ -70,6 +71,7 @@ header {
     margin-left: 50px;
     padding-right: 50px;
     text-align: left;
+    color: white;
 }
 
 #autores {
@@ -81,19 +83,21 @@ header {
     border-radius: 15px;
     padding: 10px;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 70px;
     flex: 1;
+    color: white;
 }
 
 .read-more {
     z-index: 3;
-    background-color: #645b54d0;
+    background-color: #ffffffd0;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
-    color: #edffd9;
+    color: #333;
     z-index: 3;
     text-align: justify;
+    
 }
 
 summary {
@@ -103,13 +107,12 @@ summary {
 
 .feedback-two {
     float: right;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .radiuscem {
     border-radius: 50px;
     overflow: hidden;
-    padding-top: 25px;
     display: block;
 }
 
@@ -137,9 +140,10 @@ summary {
     background-color: #645b54d0;
     border-radius: 15px;
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 70px;
     margin-left: 20px;
     flex: 1;
+    color: white;
 }
 
 .third-box {
@@ -202,6 +206,7 @@ button {
     float:right;
     display:flex;
     align-content: center;
+    padding: 60px 30px;
 }
 button[type=submit] {
     margin-left: 0.75rem;
@@ -239,13 +244,20 @@ li a {
 
 body {
     margin: 0;
-    background-color: rgba(129, 126, 126, 0.616);
+    background-color: rgba(255, 255, 255, 0.616);
+    background-image: url('../images/pexels-kai-pilger-1341279.jpg');
+    background-attachment: fixed;
+    
 }
 
 h2 {
     font-size: 50px;
-    color: #333;
+    color: rgb(255, 255, 255);
 }
+#map {
+        width: 100px;
+        height: 100px;
+    }
 
 footer {
     background-color: #333;
