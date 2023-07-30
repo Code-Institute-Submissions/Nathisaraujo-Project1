@@ -10,10 +10,13 @@ header {
     vertical-align: middle;
     font-size: 30px;
 }
+
 .first-box {
     font-size: 25px;
     background-color: #645b54d0;
-    padding: 30px;
+    background-image: url('../images/nath.jpg');
+    background-position: 70% 40%;
+    padding: 50px;
     height: 300px;
     text-align: center;
     border-radius: 20px;
@@ -22,15 +25,11 @@ header {
     background-attachment: fixed;
     display: flex;
     align-items: center;
+    color: white;
 }
 .name-box {
     float: left;
     text-align: left;
-    flex: 1;
-}
-.description-box {
-    float: right;
-    margin-left: 50px;
 }
 .radiusdois {
     border-radius: 10%;
@@ -41,6 +40,7 @@ header {
 .text-center {
     text-align: center;
 }
+
 .second-box {
     font-size: 25px;
     background-color: #645b54d0;
@@ -53,20 +53,24 @@ header {
     display: flex;
     align-items: center;
 }
+
 .facts {
     float: left;
     text-align: left;
     flex: 1;
     padding-left: 50px;
 }
+
 .interests {
     float: right;
     margin-left: 50px;
     padding-right: 50px;
 }
+
 #autores {
     display: flex;
 }
+
 #nathalia {
     background-color: #645b54d0;
     border-radius: 15px;
@@ -75,6 +79,7 @@ header {
     margin-left: 20px;
     flex: 1;
 }
+
 .read-more {
     z-index: 3;
     background-color: #645b54d0;
@@ -85,20 +90,24 @@ header {
     z-index: 3;
     text-align: justify;
 }
+
 summary {
     cursor: pointer;
     z-index: 3;
 }
+
 .feedback-two {
     float: right;
     margin-left: 50px;
 }
+
 .radiuscem {
     border-radius: 10%;
     overflow: hidden;
     padding-top: 25px;
     display: block;
 }
+
 .radiuspic {
     border-radius: 10%;
     padding-top: 25px;
@@ -108,6 +117,7 @@ summary {
     margin: 0;
     display: none;
 }
+
 .authorleft {
     float: left;
     text-align: left;
@@ -117,6 +127,7 @@ summary {
     width: 250px;
     margin: 0;
 }
+
 #ram {
     background-color: #645b54d0;
     border-radius: 15px;
@@ -125,9 +136,11 @@ summary {
     margin-left: 20px;
     flex: 1;
 }
+
 .third-box {
     display: flex;
 }
+
 .contact {
     background-color: #645b54d0;
     border-style: solid;
@@ -140,6 +153,7 @@ summary {
     float: left;
     width: 100px;
 }
+
 .form {
     border-style: solid;
     border-color: #333;
@@ -153,14 +167,17 @@ summary {
     flex: 1;
     float: right;
 }
+
 .formfields {
     padding: 2.5px;
 }
+
 h1 {
     text-align: left;
     vertical-align: center;
     margin: 0px;
 }
+
 button {
     background-color: #645b54d0;
     width: 200px;
@@ -174,6 +191,7 @@ button {
     color: #edffd9;
 
 }
+
 button[type=submit] {
     margin-left: 0.75rem;
     margin-top: 0.75rem;
@@ -189,6 +207,7 @@ button[type=submit] {
     text-align: center;
     cursor: pointer;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -196,6 +215,7 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+
 li a {
     display: block;
     color: #edffd9;
@@ -205,14 +225,17 @@ li a {
     float: left;
     font-size: 20px;
 }
+
 body {
     margin: 0;
     background-color: rgba(129, 126, 126, 0.616);
 }
+
 h2 {
     font-size: 50px;
     color: #333;
 }
+
 footer {
     background-color: #333;
     color: #edffd9;
@@ -227,95 +250,112 @@ footer {
     font-size: 15px;
     text-transform: uppercase;
 }
+
 /*/ achar onde encaixar isso /*/
 .feedback-one {
     float: left;
     text-align: left;
     flex: 1;
 }
+
 @media screen and (max-width: 767px) {
-header {
+    header {
         font-size: 15px;
     }
-li a {
+
+    li a {
         padding: 10px 5px;
         font-size: 15px;
     }
-.first-box {
-    font-size: 15px;
-   padding-left: 10px;
-    height: 200px;
-    width: 250px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: block;
-    background-image: url('../images/na.jpg');
-    background-position: 70% 40%;
-    text-align:left;
-    color: black;
-}
-.description-box {
-    display:none;
-}
-button {
-    width: 200px;
-    height: 180px;
-    font-size: 25px;
-    margin-top: 15px;
-}
-.second-box {
-    font-size: 15px;
-padding-left: 10px;
-    height: 350px;
-    width: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: block;
-    text-align: left;
-    color: black;
-}
-#autores {
-    display: block;
-}
-#nathalia {
-    padding: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 450px;
-    width: 300px;
-    flex: none;
-}
-.read-more {
-    background-color: white;
-    color: #333;
-}
-.radiuscem {
-    display: none;
-}
-.radiuspic {
-    width: 300px;
-    height: 100;
-    display: block;
-}
-.authorleft {
-    flex: none;
-    font-size: 15px;
-    width: 300px;
-    margin: 0;
-}
-#ram {
-    padding: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    height: 450px;
-    width: 300px;
-    flex: none;
-}
-footer {
-    font-size: 12px;
-    text-transform: uppercase;
-}
-h2 {
-    font-size: 40px;}
+
+    .first-box {
+        font-size: 15px;
+        padding-left: 10px;
+        height: 200px;
+        width: 250px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: block;
+        background-image: url('../images/na.jpg');
+        background-position: 70% 40%;
+        text-align: left;
+        color: black;
+    }
+
+    .description-box {
+        display: none;
+    }
+
+    button {
+        width: 200px;
+        height: 180px;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .second-box {
+        font-size: 15px;
+        padding-left: 10px;
+        height: 350px;
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: block;
+        text-align: left;
+        color: black;
+    }
+
+    #autores {
+        display: block;
+    }
+
+    #nathalia {
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        height: 450px;
+        width: 300px;
+        flex: none;
+    }
+
+    .read-more {
+        background-color: white;
+        color: #333;
+    }
+
+    .radiuscem {
+        display: none;
+    }
+
+    .radiuspic {
+        width: 300px;
+        height: 100;
+        display: block;
+    }
+
+    .authorleft {
+        flex: none;
+        font-size: 15px;
+        width: 300px;
+        margin: 0;
+    }
+
+    #ram {
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 450px;
+        width: 300px;
+        flex: none;
+    }
+
+    footer {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
 }
