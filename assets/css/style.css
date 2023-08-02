@@ -150,27 +150,31 @@ summary {
     flex: 1;
     color: white;
 }
+
 .contact-box {
     background-color: #aca6a291;
     border-radius: 30px;
-    padding: 10px ;
-    margin-left: 180px;;
+    padding: 10px;
+    margin-left: 180px;
+    ;
     margin-bottom: 100px;
     height: 430px;
     width: 980px;
     display: flex;
-    
+
 }
+
 .contact-information {
     flex: 1;
     float: left;
-    color:white;
+    color: white;
     padding: 20px;
     font-size: 20px;
     margin-right: -20px;
     margin-top: 20px;
-    
+
 }
+
 #map {
     width: 550px;
     height: 250px;
@@ -182,6 +186,7 @@ summary {
     margin-right: 30px;
     margin-top: 35px;
 }
+
 .form {
     border-radius: 30px;
     background-color: #aca6a291;
@@ -194,9 +199,11 @@ summary {
     float: right;
     color: white;
 }
+
 .formfields {
     padding: 2.5px;
 }
+
 h1 {
     text-align: left;
     vertical-align: center;
@@ -266,10 +273,12 @@ body {
     margin: 0;
     background-color: rgb(14, 13, 37);
 }
+
 h2 {
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
+
 footer {
     background-color: rgb(255, 255, 255);
     color: #333;
@@ -396,25 +405,30 @@ footer {
         font-size: 12px;
         text-transform: uppercase;
     }
+
     h2 {
         font-size: 40px;
     }
+
     .contact-box {
         display: block;
         margin-left: 20px;
         width: 300px;
         height: 800px;
-        }   
+    }
+
     #map {
         width: 260px;
         height: 130px;
-        }
+    }
+
     .form {
-         margin-left: -70px; 
-         margin-right: 3px; 
-        }
+        margin-left: -70px;
+        margin-right: 3px;
+    }
+
     #thoughts {
-            width: 250px;
-            height: 150px;
-        }
+        width: 250px;
+        height: 150px;
+    }
 }
