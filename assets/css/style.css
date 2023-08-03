@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Nunito&display=swap');
+
 header {
     background-image: url('../images/capa.jpg');
     background-size: cover;
@@ -56,7 +57,7 @@ header {
 .second-box {
     font-size: 25px;
     background-color: #aca6a291;
-    height: 400px;
+    height: 500px;
     text-align: center;
     border-radius: 20px;
     margin-left: 200px;
@@ -83,6 +84,7 @@ header {
     padding-right: 50px;
     text-align: left;
     color: white;
+    flex: 1;
 }
 
 #autores {
@@ -110,7 +112,7 @@ header {
     color: #333;
     z-index: 3;
     text-align: justify;
-    font-family: 'Nunito', sans-serif,georgia,
+    font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 
 }
@@ -149,7 +151,7 @@ summary {
     font-size: 20px;
     width: 250px;
     margin: 0;
-    font-family: 'Nunito', sans-serif,georgia,
+    font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 }
 
@@ -174,7 +176,7 @@ summary {
     height: 480px;
     width: 980px;
     display: flex;
-    font-family: 'Nunito', sans-serif,georgia,
+    font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 
 }
@@ -213,7 +215,7 @@ summary {
     flex: 1;
     float: right;
     color: white;
-    font-family: 'Nunito', sans-serif,georgia,
+    font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 }
 
@@ -231,7 +233,7 @@ h1 {
     display: flex;
     margin-left: 220px;
     align-content: center;
-    font-family: 'Nunito', sans-serif,georgia,
+    font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 }
 
@@ -252,7 +254,7 @@ button {
     display: flex;
     align-content: center;
     padding: 60px 30px;
-    font-family: 'Nunito', sans-serif,georgia,
+    font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 }
 
