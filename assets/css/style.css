@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Nunito&display=swap');
 header {
     background-image: url('../images/capa.jpg');
     background-size: cover;
@@ -7,7 +7,7 @@ header {
     height: 160px;
     color: #333;
     text-align: left;
-    font-family: 'Borel', cursive;
+    font-family: 'Borel', cursive, georgia, sans-serif;
     vertical-align: middle;
     font-size: 30px;
 }
@@ -32,6 +32,8 @@ header {
     display: flex;
     align-items: center;
     color: white;
+    font-family: 'Nunito', sans-serif, georgia,
+        sans-serif;
 }
 
 .name-box {
@@ -62,6 +64,8 @@ header {
     background-attachment: fixed;
     display: flex;
     align-items: center;
+    font-family: 'Nunito', sans-serif, georgia,
+        sans-serif;
 }
 
 .facts {
@@ -70,6 +74,7 @@ header {
     flex: 1;
     padding-left: 50px;
     color: white;
+
 }
 
 .interests {
@@ -92,6 +97,8 @@ header {
     margin-left: 70px;
     flex: 1;
     color: white;
+    font-family: 'Nunito', sans-serif, georgia,
+        sans-serif;
 }
 
 .read-more {
@@ -103,6 +110,8 @@ header {
     color: #333;
     z-index: 3;
     text-align: justify;
+    font-family: 'Nunito', sans-serif,georgia,
+        sans-serif;
 
 }
 
@@ -140,6 +149,8 @@ summary {
     font-size: 20px;
     width: 250px;
     margin: 0;
+    font-family: 'Nunito', sans-serif,georgia,
+        sans-serif;
 }
 
 #ram {
@@ -150,6 +161,8 @@ summary {
     margin-left: 20px;
     flex: 1;
     color: white;
+    font-family: 'Nunito', sans-serif, georgia,
+        sans-serif;
 }
 
 .contact-box {
@@ -157,11 +170,12 @@ summary {
     border-radius: 30px;
     padding: 10px;
     margin-left: 180px;
-    ;
     margin-bottom: 100px;
-    height: 430px;
+    height: 480px;
     width: 980px;
     display: flex;
+    font-family: 'Nunito', sans-serif,georgia,
+        sans-serif;
 
 }
 
@@ -199,6 +213,8 @@ summary {
     flex: 1;
     float: right;
     color: white;
+    font-family: 'Nunito', sans-serif,georgia,
+        sans-serif;
 }
 
 .formfields {
@@ -215,6 +231,8 @@ h1 {
     display: flex;
     margin-left: 220px;
     align-content: center;
+    font-family: 'Nunito', sans-serif,georgia,
+        sans-serif;
 }
 
 button {
@@ -234,6 +252,8 @@ button {
     display: flex;
     align-content: center;
     padding: 60px 30px;
+    font-family: 'Nunito', sans-serif,georgia,
+        sans-serif;
 }
 
 button[type=submit] {
@@ -250,6 +270,8 @@ button[type=submit] {
     font-size: 20px;
     text-align: center;
     cursor: pointer;
+    font-family: 'Nunito', sans-serif, georgia,
+        sans-serif;
 }
 
 ul {
@@ -268,6 +290,8 @@ li a {
     text-decoration: none;
     float: left;
     font-size: 20px;
+    font-family: 'Nunito', sans-serif, georgia,
+        sans-serif;
 }
 
 body {
@@ -278,7 +302,8 @@ body {
 h2 {
     font-size: 50px;
     color: rgb(255, 255, 255);
-    font-family: 'Borel', cursive;
+    font-family: 'Borel', cursive, georgia,
+        sans-serif;
 }
 
 footer {
@@ -294,6 +319,8 @@ footer {
     z-index: 3;
     font-size: 15px;
     text-transform: uppercase;
+    font-family: 'Nunito', sans-serif, georgia,
+        sans-serif;
 }
 
 @media screen and (max-width: 767px) {
@@ -348,7 +375,7 @@ footer {
     .second-box {
         font-size: 15px;
         padding-left: 10px;
-        height: 350px;
+        height: 400px;
         width: 300px;
         margin-left: 20px;
         margin-right: 20px;
