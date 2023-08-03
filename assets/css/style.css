@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 header {
     background-image: url('../images/capa.jpg');
     background-size: cover;
@@ -6,7 +7,7 @@ header {
     height: 160px;
     color: #333;
     text-align: left;
-    font-family: Times, Georgia, Confortaa, Verdana;
+    font-family: 'Borel', cursive;
     vertical-align: middle;
     font-size: 30px;
 }
@@ -277,6 +278,7 @@ body {
 h2 {
     font-size: 50px;
     color: rgb(255, 255, 255);
+    font-family: 'Borel', cursive;
 }
 
 footer {
