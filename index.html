@@ -22,21 +22,21 @@
 
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#recommendation">Recommendations</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" aria-label="Go to the top of the page">Home</a></li>
+            <li><a href="#gallery" aria-label="Go to gallery section">Gallery</a></li>
+            <li><a href="#about" aria-label="Go to about section">About me</a></li>
+            <li><a href="#recommendation" aria-label="Go to the recommendation page">Recommendations</a></li>
+            <li><a href="#contact" aria-label="Go to contact page">Contact</a></li>
         </ul>
     </nav>
     <br>
     <div id="home" class="first-box">
         <div>
-            <p class="name-box"> <strong>Nathalia de Araujo Silva</strong> </p>
+            <p class="home-box"> <strong>Nathalia de Araujo Silva</strong> </p>
             <br>
             <br>
             <br>
-            <ol class="name-box">
+            <ol class="home-box">
                 <li>Postgraduate in Marketing</li>
                 <li>Bachelor's degree in Law</li>
                 <li>Studying Software Development
@@ -51,16 +51,16 @@
     <br>
     <h2 id="gallery" class="text-center">Gallery</h2>
     <div class="text-center gallery">
-        <a href="./assets/gallery/captain.html">
+        <a href="./assets/gallery/experience.html">
             <button>Experience</button>
         </a>
-        <a href="./assets/gallery/mama.html">
+        <a href="./assets/gallery/education.html">
             <button>Education</button>
         </a>
-        <a href="./assets/gallery/poo.html">
+        <a href="./assets/gallery/works.html">
             <button>Relevant works</button>
         </a>
-        <a href="./assets/gallery/sunshine.html">
+        <a href="./assets/gallery/art.html">
             <button>Art</button>
         </a>
     </div>
@@ -92,14 +92,14 @@
         <br>
         <h2 id="recommendation" class="text-center">Recommendations</h2>
         <div id="autores">
-            <div id="nathalia">
+            <div id="ameli">
                 <div>
-                    <img class="feedback-two radiuscem" width="300px" src="./assets/images/ameli.jpeg">
+                    <img class="feedback-box img-desktop" width="300px" src="./assets/images/ameli.jpeg" alt="woman picture" aria-labelledby="ameli">
                 </div>
                 <div>
-                    <img class="feedback-two radiuspic" width="300px" src="./assets/images/ameli.jpeg">
+                    <img class="feedback-box img-media" width="300px" src="./assets/images/ameli.jpeg" alt="woman picture" aria-labelledby="ameli">
                 </div>
-                <div class="authorleft">
+                <div class="rec-left">
                     <h3>Ameli Carrano</h3>
                     <p>Web Designer and Developer at Carrano's Designs & Marketing</p>
                     <details class="read-more">
@@ -113,14 +113,14 @@
                     </details>
                 </div>
             </div>
-            <div id="ram">
+            <div id="guilherme">
                 <div>
-                    <img class="feedback-two radiuscem" width="300px" src="./assets/images/Thomas_63.jpg">
+                    <img class="feedback-box img-desktop" width="300px" src="./assets/images/Thomas_63.jpg" alt="man picture" aria-labelledby="guilherme">
                 </div>
                 <div>
-                    <img class="feedback-two radiuspic" width="300px" src="./assets/images/Thomas_63.jpg">
+                    <img class="feedback-box img-media" width="300px" src="./assets/images/Thomas_63.jpg" alt="man picture" aria-labelledby="guilherme">
                 </div>
-                <div class="authorleft">
+                <div class="rec-left">
                     <h3>Guilherme Zakczewiski</h3>
                     <p>Production Technician at Johnson & Johnson Vision Care</p>
                     <details class="read-more">
@@ -135,7 +135,6 @@
         </div>
         <br>
         <h2 id="contact" class="text-center">Contact Me</h2>
-
         <div class="contact-box">
             <div class="contact-information">
                 <div>Nathalia de Araujo Silva</div>
@@ -164,12 +163,12 @@
                             <label for="thoughts" class="formfields">Tell us what you think:</label>
                             <br>
                             <textarea name="whatyouthink" id="thoughts"
-                                placeholder="Write here your experience using the songs and stories from this project"
+                                placeholder="Write your message here and I'll be in contact as soon as possible"
                                 rows="10" cols="40"></textarea>
                         </form>
                         <div>
                             <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
-                            <label for="checkbox">I want to receive e-mails at every new post</label>
+                            <label for="checkbox">I want to receive e-mails at every new update</label>
                         </div>
                         <br>
                         <div>
@@ -179,15 +178,14 @@
                 </form>
             </div>
         </div>
-
     </div>
     </div>
 </body>
 <footer>
     <span><strong>Find me on:</strong></span>
-    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-    <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>
+    <a href="https://www.linkedin.com/" target="_blank" aria-label="Find us on Linkedin" rel="noopener">LinkedIn</a>
+    <a href="https://www.instagram.com/" target="_blank" aria-label="Find us on Instagram" rel="noopener">Instagram</a>
+    <a href="https://www.pinterest.com/" target="_blank" aria-label="Find us on Pinterest" rel="noopener">Pinterest</a>
     <p>@Copyright Something</p>
 </footer>
 
