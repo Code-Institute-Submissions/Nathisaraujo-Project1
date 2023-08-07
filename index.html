@@ -51,26 +51,26 @@
     <br>
     <h2 id="gallery" class="text-center">Gallery</h2>
     <div class="text-center gallery">
-        <a href="./assets/gallery/experience.html">
+        <form action="./assets/gallery/experience.html">
             <button>Experience</button>
-        </a>
-        <a href="./assets/gallery/education.html">
+        </form>
+        <form action="./assets/gallery/education.html">
             <button>Education</button>
-        </a>
-        <a href="./assets/gallery/works.html">
+        </form>
+        <form action="./assets/gallery/works.html">
             <button>Relevant works</button>
-        </a>
-        <a href="./assets/gallery/art.html">
+        </form>
+        <form action="./assets/gallery/art.html">
             <button>Art</button>
-        </a>
+        </form>
     </div>
     <br>
     <div>
         <h2 id="about" class="text-center">Get to know me</h2>
         <div class="second-box">
             <div class="facts">
+                <h3>5 FACTS</h3>
                 <ol>
-                    <h3>5 FACTS</h3>
                     <li>I am self-taught and can learn a lot in a short amount of time.</li>
                     <li>I managed a big project with more than 30 stakeholders.</li>
                     <li>I'm very creative and it helps me with problem solving.</li>
@@ -79,8 +79,8 @@
                 </ol>
             </div>
             <div class="interests">
+                <h3> 5 INTERESTS</h3>
                 <ol>
-                    <h3> 5 INTERESTS</h3>
                     <li>I love to play videogames - my favorite is Zelda.</li>
                     <li>I love painting and my home is decorated with my designs.</li>
                     <li>I love to play tennis since I was a child.</li>
@@ -94,10 +94,12 @@
         <div id="autores">
             <div id="ameli">
                 <div>
-                    <img class="feedback-box img-desktop" width="300px" src="./assets/images/ameli.jpeg" alt="woman picture" aria-labelledby="ameli">
+                    <img class="feedback-box img-desktop" style="width:50%;" src="./assets/images/ameli.jpeg"
+                        alt="woman picture" aria-labelledby="ameli">
                 </div>
                 <div>
-                    <img class="feedback-box img-media" width="300px" src="./assets/images/ameli.jpeg" alt="woman picture" aria-labelledby="ameli">
+                    <img class="feedback-box img-media" style="width:50%;" src="./assets/images/ameli.jpeg"
+                        alt="woman picture" aria-labelledby="ameli">
                 </div>
                 <div class="rec-left">
                     <h3>Ameli Carrano</h3>
@@ -115,10 +117,12 @@
             </div>
             <div id="guilherme">
                 <div>
-                    <img class="feedback-box img-desktop" width="300px" src="./assets/images/Thomas_63.jpg" alt="man picture" aria-labelledby="guilherme">
+                    <img class="feedback-box img-desktop" style="width:50%;" src="./assets/images/Thomas_63.jpg"
+                        alt="man picture" aria-labelledby="guilherme">
                 </div>
                 <div>
-                    <img class="feedback-box img-media" width="300px" src="./assets/images/Thomas_63.jpg" alt="man picture" aria-labelledby="guilherme">
+                    <img class="feedback-box img-media" style="width:50%;" src="./assets/images/Thomas_63.jpg"
+                        alt="man picture" aria-labelledby="guilherme">
                 </div>
                 <div class="rec-left">
                     <h3>Guilherme Zakczewiski</h3>
@@ -141,7 +145,7 @@
                 <div>Phone: +353 085 250 0421</div>
                 <div>Email: nat.advogada@gmail.com</div>
                 <div>Limerick, Ireland</div>
-                <iframe id="map" src="https://bit.ly/2QVfkiy" width="100%" height="300"></iframe>
+                <iframe id="map" src="https://bit.ly/2QVfkiy" width="100" height="300"></iframe>
             </div>
             <div>
                 <form action="https://www.sendmydatahere.com" method="post" class="text-center">
@@ -159,13 +163,11 @@
                             <label for="phone">Phone:</label>
                             <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                         </div>
-                        <form class="formfields">
                             <label for="thoughts" class="formfields">Tell us what you think:</label>
                             <br>
                             <textarea name="whatyouthink" id="thoughts"
                                 placeholder="Write your message here and I'll be in contact as soon as possible"
                                 rows="10" cols="40"></textarea>
-                        </form>
                         <div>
                             <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
                             <label for="checkbox">I want to receive e-mails at every new update</label>
@@ -179,8 +181,6 @@
             </div>
         </div>
     </div>
-    </div>
-</body>
 <footer>
     <span><strong>Find me on:</strong></span>
     <a href="https://www.linkedin.com/" target="_blank" aria-label="Find us on Linkedin" rel="noopener">LinkedIn</a>
@@ -188,5 +188,5 @@
     <a href="https://www.pinterest.com/" target="_blank" aria-label="Find us on Pinterest" rel="noopener">Pinterest</a>
     <p>@Copyright Something</p>
 </footer>
-
+</body>
 </html>

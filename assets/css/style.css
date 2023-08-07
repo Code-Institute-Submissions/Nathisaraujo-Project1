@@ -89,6 +89,7 @@ header {
 
 #autores {
     display: flex;
+    width:100%;
 }
 
 #ameli {
@@ -232,7 +233,7 @@ h1 {
 .gallery {
     display: flex;
     margin-left: 220px;
-    align-content: center;
+    text-align: center;
     font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 }
@@ -256,6 +257,7 @@ button {
     padding: 60px 30px;
     font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
+        text-align: center;
 }
 
 button[type=submit] {
@@ -324,8 +326,8 @@ footer {
     font-family: 'Nunito', sans-serif, georgia,
         sans-serif;
 }
-
 @media screen and (max-width: 1360px) {
+
     header {
         font-size: 15px;
     }
@@ -344,11 +346,11 @@ footer {
         font-size: 15px;
         padding-left: 10px;
         height: 200px;
-        width: 250px;
         margin-left: 20px;
         margin-right: 20px;
         display: block;
-        background-image: url('../images/na.jpg');
+        background-image: url('../images/nathalia.jpg');
+        background-repeat:unset;
         background-position: 70% 40%;
         text-align: left;
         color: black;
@@ -360,34 +362,49 @@ footer {
 
     .gallery {
         display: block;
-        margin-left: 50px;
+        margin: 0px;
         align-content: center;
     }
 
     button {
-        width: 200px;
         height: 180px;
         font-size: 25px;
         margin-top: 15px;
+        width: 100%;
         display: block;
         float: none;
-        margin-right: 0;
     }
 
     .second-box {
         font-size: 15px;
-        padding-left: 10px;
-        height: 400px;
-        width: 300px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0px;
         display: block;
         text-align: left;
-        color: black;
+        padding: 0px;
+        border: 0px;
+        background-color: rgb(14, 13, 37);
+        width: 100%;
+        height: 10px;
+    }
+    .facts {
+        padding: 15px 30px;
+        
+        float: right;
+        margin: -20px -10px;
+    }
+    
+    .interests {
+        padding: 15px 30px;
+        float: right;
+        margin: -20px -10px;
+        
     }
 
     #autores {
         display: block;
+        width:100%;
+        padding-left: 10px;
+           
     }
 
     #ameli {
@@ -395,7 +412,7 @@ footer {
         margin-right: 20px;
         margin-left: 20px;
         height: 450px;
-        width: 300px;
+        width: 50%;
         flex: none;
     }
 
@@ -409,8 +426,7 @@ footer {
     }
 
     .img-media {
-        width: 300px;
-        height: 100;
+    
         display: block;
         border-radius: 50px;
     }
@@ -438,19 +454,23 @@ footer {
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 35px;
+        margin: 15px;
     }
 
     .contact-box {
         display: block;
-        margin-left: 20px;
-        width: 300px;
+        margin-left: 50px;
+        margin-right: 10px;
+        width: 90%;
         height: 800px;
+        font-size: 15px;
     }
 
     #map {
-        width: 260px;
+        width: 100%;
         height: 130px;
+        align-items: center;
     }
 
     .form {
@@ -461,5 +481,17 @@ footer {
     #thoughts {
         width: 250px;
         height: 150px;
+    }
+    .contact-information {
+            text-align: center;
+            padding: 20px;
+            font-size: 15px;
+           
+            margin-top: 20px;
+    
+        }
+
+    h3 {
+        text-align: center;
     }
 }
