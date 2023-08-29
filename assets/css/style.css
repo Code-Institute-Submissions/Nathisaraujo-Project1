@@ -10,6 +10,7 @@ body {
 header {
     display: flex;
     justify-content: start;
+    align-items: center;
     background-image: url('../images/capa.jpg');
     background-size: cover;
     background-position: 80% 50%;
@@ -34,6 +35,10 @@ h3 {
 }
 
 .first-box {
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2vw;
     font-size: 25px;
     background-image: url('../images/nath.jpg');
     background-position: 70% 40%;
@@ -41,11 +46,7 @@ h3 {
     text-align: left;
     border-radius: 10px;
     background-attachment: fixed;
-    display: flex;
     color: white;
-    width: 60vw;
-    margin: 0 auto;
-    padding: 2vw;
 }
 
 .home-box {
@@ -55,12 +56,6 @@ h3 {
     font-size: 1.2rem;
 }
 
-.vertical-center {
-    position: relative;
-    top: 30%;
-    padding-left: 25px;
-}
-
 .radiusdois {
     border-radius: 10%;
     overflow: hidden;
@@ -68,7 +63,7 @@ h3 {
     display: block;
 }
 
-.text-center {
+.title-center {
     text-align: center;
     font-family: 'Borel', cursive, georgia, sans-serif;
 }
@@ -97,7 +92,7 @@ h3 {
     margin: 0 auto;
 }
 
-#ameli-gui {
+.autores-card {
     background-color: #aca6a291;
     border-radius: 10px;
     padding: 1vw;
@@ -111,15 +106,31 @@ h3 {
     width: 50%;
 }
 
-.feedback-box {
-    float: right;
-    margin-left: 10px;
+
+.rec {
+    display: flex;
+    flex-direction: column;
+    color: #edffd9;
+    width: 60%;
+    font-size: 20px;
+    margin: 0.2vw;
+    padding: 0px;
 }
 
-.img-desktop {
-    border-radius: 100px;
+.read-more {
+    z-index: 3;
+    background-color: #ffffffd0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #333;
+    text-align: justify;
+}
+
+.card-img {
+    border-radius: 100%;
     overflow: hidden;
-    width: 40%;
+    width: 50%;
     height: auto;
 }
 
@@ -134,25 +145,6 @@ h3 {
     display: none;
 }
 
-.rec {
-    display: flex;
-    flex-direction: column;
-    color: #edffd9;
-    width: 50%;
-    font-size: 20px;
-    margin: 0px;
-    padding: 0px;
-}
-
-.read-more {
-    z-index: 3;
-    background-color: #ffffffd0;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    color: #333;
-    text-align: justify;
-}
 
 summary {
     cursor: pointer;
@@ -223,6 +215,11 @@ summary {
     width: 100%;
     margin-bottom: 10px;
 }
+
+/* .feedback-box {
+    float: right;
+    margin-left: 10px;
+} */
 
 .button {
     margin-top: 0.75rem;
