@@ -73,36 +73,27 @@ h3 {
 }
 
 .second-box {
-    font-size: 25px;
     background-color: #aca6a291;
-    height: 500px;
-    text-align: center;
     border-radius: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
     background-attachment: fixed;
     display: flex;
-    align-items: center;
-    font-family: 'Nunito', sans-serif, georgia,
-        sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2vw;
 }
 
-.facts {
-    float: left;
+.facts-interests {
     text-align: left;
-    flex: 1;
-    padding-left: 50px;
     color: white;
+    width: 50%;
+    padding: 2vw;
 
 }
 
-.interests {
-    float: right;
-    margin-left: 50px;
-    padding-right: 50px;
-    text-align: left;
-    color: white;
-    flex: 1;
+.gallery {
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 #autores {
@@ -240,14 +231,6 @@ summary {
 
 .formfields {
     padding: 2.5px;
-}
-
-.gallery {
-    display: flex;
-    margin-left: 220px;
-    text-align: center;
-    font-family: 'Nunito', sans-serif, georgia,
-        sans-serif;
 }
 
 button {

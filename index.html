@@ -47,23 +47,6 @@
         </div>
     </div>
     <br>
-    <h2 id="gallery">Gallery</h2>
-    <div class="gallery">
-        <!-- é action que coloca? -->
-        <div class="button" action="./assets/gallery/experience.html">
-            Experience
-        </div>
-        <div class="button" action="./assets/gallery/education.html">
-            Education
-        </div>
-        <div class="button" action="./assets/gallery/works.html">
-            Relevant works
-        </div>
-        <div class="button" action="./assets/gallery/art.html">
-            Art
-        </div>
-    </div>
-    <br>
     <div>
         <h2 id="about">Get to know me</h2>
         <div class="second-box">
@@ -93,6 +76,7 @@
         <div id="autores">
             <div id="ameli-gui">
                 <div>
+                    <!-- só tirou o style de um -->
                     <img class="feedback-box img-desktop" style="width:50%;" src="./assets/images/ameli.jpeg"
                         alt="woman picture" aria-labelledby="ameli">
                 </div>
@@ -100,7 +84,7 @@
                     <img class="feedback-box img-media" style="width:50%;" src="./assets/images/ameli.jpeg"
                         alt="woman picture" aria-labelledby="ameli">
                 </div>
-                <div class="rec-left">
+                <div class="rec">
                     <h3>Ameli Carrano</h3>
                     <p>Web Designer and Developer at Carrano's Designs & Marketing</p>
                     <details class="read-more">
@@ -114,7 +98,8 @@
                     </details>
                 </div>
             </div>
-            <div id="guilherme">
+            <div id="ameli-gui">
+                <!-- só tirou o style de um -->
                 <div>
                     <img class="feedback-box img-desktop" style="width:50%;" src="./assets/images/Thomas_63.jpg"
                         alt="man picture" aria-labelledby="guilherme">
@@ -137,17 +122,17 @@
             </div>
         </div>
         <br>
-        <h2 id="contact" class="text-center">Contact Me</h2>
+        <h2 id="contact">Contact Me</h2>
         <div class="contact-box">
             <div class="contact-information">
-                <div>Nathalia de Araujo Silva</div>
-                <div>Phone: +353 085 250 0421</div>
-                <div>Email: nat.advogada@gmail.com</div>
-                <div>Limerick, Ireland</div>
-                <iframe id="map" src="https://bit.ly/2QVfkiy" width="100" height="300"></iframe>
+                <p>Nathalia de Araujo Silva</p>
+                <p>Phone: +353 085 250 0421</p>
+                <p>Email: nat.advogada@gmail.com</p>
+                <p>Limerick, Ireland</p>
+                <iframe id="map" src="https://bit.ly/2QVfkiy"></iframe>
             </div>
             <div>
-                <form action="https://www.sendmydatahere.com" method="post" class="text-center">
+                <form action="https://www.sendmydatahere.com" method="post">
                     <fieldset class="form">
                         <legend><strong>CONTACT</strong></legend>
                         <div class="formfields">
@@ -162,11 +147,11 @@
                             <label for="phone">Phone:</label>
                             <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                         </div>
-                            <label for="thoughts" class="formfields">Tell us what you think:</label>
-                            <br>
-                            <textarea name="whatyouthink" id="thoughts"
-                                placeholder="Write your message here and I'll be in contact as soon as possible"
-                                rows="10" cols="40"></textarea>
+                        <label for="thoughts" class="formfields">Tell us what you think:</label>
+                        <br>
+                        <textarea name="whatyouthink" id="thoughts"
+                            placeholder="Write your message here and I'll be in contact as soon as possible" rows="10"
+                            cols="40"></textarea>
                         <div>
                             <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
                             <label for="checkbox">I want to receive e-mails at every new update</label>
@@ -180,12 +165,15 @@
             </div>
         </div>
     </div>
-<footer>
-    <span><strong>Find me on:</strong></span>
-    <a href="https://www.linkedin.com/" target="_blank" aria-label="Find us on Linkedin" rel="noopener">LinkedIn</a>
-    <a href="https://www.instagram.com/" target="_blank" aria-label="Find us on Instagram" rel="noopener">Instagram</a>
-    <a href="https://www.pinterest.com/" target="_blank" aria-label="Find us on Pinterest" rel="noopener">Pinterest</a>
-    <p>@Copyright Something</p>
-</footer>
+    <footer>
+        <span><strong>Find me on:</strong></span>
+        <a href="https://www.linkedin.com/" target="_blank" aria-label="Find us on Linkedin" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Find us on Instagram"
+            rel="noopener">Instagram</a>
+        <a href="https://www.pinterest.com/" target="_blank" aria-label="Find us on Pinterest"
+            rel="noopener">Pinterest</a>
+        <p>@Copyright Something</p>
+    </footer>
 </body>
+
 </html>
