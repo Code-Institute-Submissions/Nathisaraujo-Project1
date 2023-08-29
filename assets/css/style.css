@@ -190,41 +190,50 @@ summary {
     margin-top: 35px;
 }
 
+.formulario {
+    width: 50%;
+}
+
 .form {
     border-radius: 30px;
     background-color: #aca6a291;
-    margin-right: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    max-width: 300px;
-    width: 80%;
-    flex: 1;
-    float: right;
     color: white;
-    font-family: 'Nunito', sans-serif, georgia,
-        sans-serif;
+}
+
+.form legend {
+    text-align: center;
 }
 
 .formfields {
     padding: 2.5px;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#phone {
+    width: 50%;
+}
+
+.form-input {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 button[type=submit] {
-    margin-left: 0.75rem;
     margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
     padding: 0.75rem;
     background-color: #333;
     color: #edffd9;
     border: none;
     border-radius: 8px;
-    width: 80px;
+    width: 40%;
     height: 50px;
     font-size: 20px;
     text-align: center;
     cursor: pointer;
-    font-family: 'Nunito', sans-serif, georgia,
-        sans-serif;
 }
 
 ul {
