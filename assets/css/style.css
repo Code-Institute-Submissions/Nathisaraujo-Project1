@@ -90,27 +90,57 @@ h3 {
 
 }
 
-.gallery {
-    display: flex;
-    margin: 0 auto;
-    max-width: 80%;
-}
-
 #autores {
     display: flex;
     width: 100%;
+    margin: 0 auto;
 }
 
-#ameli {
+#ameli-gui {
     background-color: #aca6a291;
-    border-radius: 15px;
-    padding: 10px;
-    margin-right: 20px;
-    margin-left: 70px;
+    border-radius: 10px;
+    padding: 1vw;
+    margin: 0 15px;
     flex: 1;
     color: white;
-    font-family: 'Nunito', sans-serif, georgia,
-        sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.feedback-box {
+    float: right;
+    margin-left: 10px;
+}
+
+.img-desktop {
+    border-radius: 100px;
+    overflow: hidden;
+    width: 40%;
+    height: auto;
+}
+
+/* pq nao precisa de img media? */
+.img-media {
+    border-radius: 10%;
+    padding-top: 25px;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    display: none;
+}
+
+.rec {
+    display: flex;
+    flex-direction: column;
+    color: #edffd9;
+    width: 50%;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .read-more {
@@ -132,38 +162,9 @@ summary {
     z-index: 3;
 }
 
-.feedback-box {
-    float: right;
-    margin-left: 10px;
-}
 
-.img-desktop {
-    border-radius: 50px;
-    overflow: hidden;
-    display: block;
-}
 
-.img-media {
-    border-radius: 10%;
-    padding-top: 25px;
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
-    margin: 0;
-    display: none;
-}
 
-.rec-left {
-    float: left;
-    text-align: left;
-    flex: 1;
-    color: #edffd9;
-    font-size: 20px;
-    width: 250px;
-    margin: 0;
-    font-family: 'Nunito', sans-serif, georgia,
-        sans-serif;
-}
 
 #guilherme {
     background-color: #aca6a291;
@@ -231,28 +232,6 @@ summary {
 
 .formfields {
     padding: 2.5px;
-}
-
-button {
-    background-color: #aca6a291;
-    width: 200px;
-    height: 180px;
-    border: none;
-    border-radius: 8px;
-    font-family: Montserrat, Georgia, Confortaa, Verdana;
-    font-size: 30px;
-    margin-right: 15px;
-    margin-left: 15px;
-    cursor: pointer;
-    color: #edffd9;
-    flex: 4;
-    float: right;
-    display: flex;
-    align-content: center;
-    padding: 60px 30px;
-    font-family: 'Nunito', sans-serif, georgia,
-        sans-serif;
-    text-align: center;
 }
 
 button[type=submit] {
@@ -350,21 +329,6 @@ footer {
 
     .description-box {
         display: none;
-    }
-
-    .gallery {
-        display: block;
-        margin: 0px;
-        align-content: center;
-    }
-
-    button {
-        height: 180px;
-        font-size: 25px;
-        margin-top: 15px;
-        width: 100%;
-        display: block;
-        float: none;
     }
 
     .second-box {
