@@ -334,35 +334,30 @@ footer {
         width: 80vw;
     }
 
-    .form {
-        border-radius: 20px;
-        background-color: #aca6a291;
-        color: white;
-    }
-
-    .form legend {
-        text-align: center;
-    }
-
-    .formfields {
-        padding: 2.5px;
-        font-size: 15px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-
-    #phone {
-        width: 50%;
-    }
-
-    .form input {
-        width: 90%;
-        margin-bottom: 10px;
-    }
-
     footer {
         font-size: 0.8rem;
     }
+
+    li a {
+        font-size: 15px;
+    }
+
+    dt {
+        width: 70vw;
+
+    }
+
+    dd {
+        width: 70vw;
+    }
+
+    .facts-interests li {
+        width: 60vw;
+    }
+
+    .formfields {
+        width: 70vw;
+        align-content: center;
+    }
+
 }
