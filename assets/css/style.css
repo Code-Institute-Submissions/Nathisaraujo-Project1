@@ -76,7 +76,7 @@ h3 {
 
 .second-box {
     background-color: #aca6a291;
-    border-radius: 20px;
+    border-radius: 10px;
     background-attachment: fixed;
     display: flex;
     width: 60vw;
@@ -194,31 +194,7 @@ summary {
 }
 
 .form {
-    border-radius: 20px;
-    background-color: #aca6a291;
-    color: white;
-}
-
-.form legend {
-    text-align: center;
-}
-
-.formfields {
-    padding: 2.5px;
-    font-size: 15px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-#phone {
-    width: 50%;
-}
-
-.form input {
-    width: 90%;
-    margin-bottom: 10px;
+    width: 80%;
 }
 
 .button {
@@ -234,7 +210,7 @@ summary {
     cursor: pointer;
 }
 
-/* tem como juntar os dois? */
+/* tem como juntar os dois? alinhar botão*/
 button {
     margin-top: 0.75rem;
     padding: 0.75rem;
@@ -290,156 +266,103 @@ footer {
 @media screen and (max-width: 1360px) {
 
     header {
-        font-size: 15px;
+        font-size: 0.7rem;
     }
 
-    .vertical-center {
-        top: 40%;
-        padding-left: 15px;
-    }
-
-    li a {
-        padding: 10px 5px;
-        font-size: 15px;
-    }
-
-    .first-box {
-        font-size: 15px;
-        padding-left: 10px;
-        height: 200px;
-        margin-left: 20px;
-        margin-right: 20px;
-        display: block;
-        background-image: url('../images/nathalia.jpg');
-        background-repeat: unset;
-        background-position: 70% 40%;
-        text-align: left;
-        color: black;
-    }
-
-    .description-box {
-        display: none;
-    }
-
-    .second-box {
-        font-size: 15px;
-        margin: 0px;
-        display: block;
-        text-align: left;
-        padding: 0px;
-        border: 0px;
-        background-color: rgb(14, 13, 37);
-        width: 100%;
-        height: 10px;
-    }
-
-    .facts {
-        padding: 15px 30px;
-
-        float: right;
-        margin: -20px -10px;
-    }
-
-    .interests {
-        padding: 15px 30px;
-        float: right;
-        margin: -20px -10px;
-
-    }
-
-    #autores {
-        display: block;
-        width: 100%;
-        padding-left: 10px;
-
-    }
-
-    #ameli {
-        padding: 10px;
-        margin-right: 20px;
-        margin-left: 20px;
-        height: 450px;
-        width: 50%;
-        flex: none;
-    }
-
-    .read-more {
-        background-color: white;
-        color: #333;
-    }
-
-    .img-desktop {
-        display: none;
-    }
-
-    .img-media {
-
-        display: block;
-        border-radius: 50px;
-    }
-
-    .rec-left {
-        flex: none;
-        font-size: 15px;
-        width: 300px;
-        margin: 0;
-    }
-
-    #guilherme {
-        padding: 10px;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 20px;
-        height: 450px;
-        width: 300px;
-        flex: none;
-    }
-
-    footer {
-        font-size: 12px;
-        text-transform: uppercase;
-    }
-
-    h2 {
-        font-size: 35px;
-        margin: 15px;
-    }
-
-    .contact-box {
-        display: block;
-        margin-left: 50px;
-        margin-right: 10px;
-        width: 90%;
-        height: 800px;
-        font-size: 15px;
-    }
-
-    #map {
-        width: 100%;
-        height: 130px;
-        align-items: center;
-    }
-
-    .form {
-        margin-left: -70px;
-        margin-right: 3px;
-    }
-
-    #thoughts {
-        width: 250px;
-        height: 150px;
-    }
-
-    .contact-information {
-        text-align: center;
-        padding: 20px;
-        font-size: 15px;
-
-        margin-top: 20px;
-
+    body {
+        font-size: 1rem;
     }
 
     h3 {
+        font-size: 1.2rem;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .first-box {
+        width: 80vw;
+        height: 50vh;
+        text-align: left;
+        font-size: 0.5rem;
+        /* tamanho da fonte da first-box */
+    }
+
+    .second-box {
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    #autores {
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .autores-card {
+        flex-direction: column;
+        width: 80vw;
+        margin-top: 10px;
+    }
+
+    .rec {
+        flex-direction: column;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .contact-box {
+        width: 80vw;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    /* align content no map e contact information */
+    .contact-information {
+        width: 90%;
+        align-content: center;
+    }
+
+    #map {
+        align-content: center;
+    }
+
+    .formulario {
+        width: 80vw;
+    }
+
+    .form {
+        border-radius: 20px;
+        background-color: #aca6a291;
+        color: white;
+    }
+
+    .form legend {
+        text-align: center;
+    }
+
+    .formfields {
+        padding: 2.5px;
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #phone {
+        width: 50%;
+    }
+
+    .form input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        font-size: 0.8rem;
     }
 }
