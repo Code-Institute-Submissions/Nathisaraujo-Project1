@@ -123,26 +123,17 @@
                         <div class="formfields">
                             <label for="name-field">Name:</label>
                             <input type="text" name="getdata" id="name-field" required>
-                        </div>
-                        <div class="formfields">
                             <label for="email-field">Email:</label>
                             <input type="text" name="getdata" id="email-field" required>
-                        </div>
-                        <div class="formfields">
                             <label for="phone">Phone:</label>
                             <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                        </div>
-                        <label for="thoughts" class="formfields">Tell us what you think:</label>
-                        <br>
-                        <textarea name="whatyouthink" id="thoughts"
-                            placeholder="Write your message here and I'll be in contact as soon as possible" rows="10"
-                            cols="40"></textarea>
-                        <div>
+                            <label for="thoughts" class="formfields">Tell us what you think:</label>
+                            <textarea name="whatyouthink" id="thoughts"
+                                placeholder="Write your message here and I'll be in contact as soon as possible"
+                                rows="10" cols="40">
+                            </textarea>
                             <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
                             <label for="checkbox">I want to receive e-mails at every new update</label>
-                        </div>
-                        <br>
-                        <div>
                             <button type="submit">Send!</button>
                         </div>
                     </fieldset>

@@ -3,7 +3,7 @@
 body {
     margin: 0 auto;
     background-color: rgb(14, 13, 37);
-    font-size: 25px;
+    font-size: 1rem;
     font-family: 'Nunito', sans-serif, georgia, sans-serif;
 }
 
@@ -131,7 +131,7 @@ h3 {
     border-radius: 100%;
     overflow: hidden;
     width: 50%;
-    height: auto;
+    padding: 1.5vw;
 }
 
 /* pq nao precisa de img media? */
@@ -171,7 +171,6 @@ summary {
 .contact-information p {
     padding: 0px;
     margin: 0px;
-    font-size: 20px;
 }
 
 #map {
@@ -185,11 +184,11 @@ summary {
 }
 
 .formulario {
-    width: 50%;
+    width: 60%;
 }
 
 .form {
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #aca6a291;
     color: white;
 }
@@ -211,15 +210,10 @@ summary {
     width: 50%;
 }
 
-.form-input {
-    width: 100%;
+.form input {
+    width: 90%;
     margin-bottom: 10px;
 }
-
-/* .feedback-box {
-    float: right;
-    margin-left: 10px;
-} */
 
 .button {
     margin-top: 0.75rem;
