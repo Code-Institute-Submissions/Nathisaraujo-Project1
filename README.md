@@ -2,13 +2,15 @@
 
 The Nathalia Araujo website serves as a comprehensive curriculum landing page, presenting an extensive array of information about my career. The page starts with a succinct overview of my educational background and interests. Visitors to this website will find all the relevant information necessary to gain a comprehensive understanding of me before making any hiring decisions. It's crucial to me that individuals can gain insights into my personality, rather than focusing solely on my professional skills.
 
-![Contributions guidelines](/readme-images/1.png)
+![Responsive Design Screenshot](/readme-images/1.png)
 
 ## FEATURES
 
 ### Header
     - The header only contains a picture with my logo.
     - Its purpose is to maintain the website minimalist and clean.
+  
+![Header Screenshot](/readme-images/2.png)
 
 ### Navigation
     - Positioned at the top of the page.
@@ -18,25 +20,35 @@ The Nathalia Araujo website serves as a comprehensive curriculum landing page, p
     - Maintains uniformity with the body font to ensure cleanliness and consistency.
     - The minimalist and straightforward design aids users in swift identification.
 
+![Navigation Screenshot](/readme-images/3.png)
+
 ### Home
     - It's the landing page image.
     - Offers a glimpse of my primary skills.
     - Presents essential summarized information.
     - Includes a photo of the page's author.
 
+![home Screenshot](/readme-images/4.png)
+
 ### Experience
     - Explores work experience and detailed education history.
     - Features two lists for each experience, providing additional insights.
+
+![Experience Screenshot](/readme-images/5.png)
 
 ### Get to Know Me
     - Adheres to the same design concept as the experience section.
     - Comprises two lists: one featuring five facts about the author and another with five of her interests.
     - Offers users a deeper understanding of the author's personality beyond her professional background.
 
+![Get to Know Me Screenshot](/readme-images/6.png)
+
 ### Recommendations
     - Showcases two containers, each dedicated to a person that she collaborated with or served her as a client.
     - Users can click "Read More" to view the feedback provided by each individual.
     - Includes a photo and brief job description for each person.
+
+![Recommendations Screenshot](/readme-images/7.png)
 
 ### Contact Me
     - Provides contact information for users interested in reaching out.
@@ -44,6 +56,14 @@ The Nathalia Araujo website serves as a comprehensive curriculum landing page, p
     - Incorporates a map to indicate the location.
     - Features a form where users can input their name, email, phone number, and leave a message.
     - Users can opt to receive updates via a checkbox.
+
+![Contact Me Screenshot](/readme-images/8.png)
+
+### Footer
+    - Information about social media.
+    - All links to social media working.
+
+![Footer Screenshot](/readme-images/9.png)
 
 ### TESTING
     - Verified compatibility across different browsers: Chrome, Firefox, Edge.
@@ -63,8 +83,11 @@ The Nathalia Araujo website serves as a comprehensive curriculum landing page, p
 
 ### VALIDATOR TESTING
     - **HTML:** Passed through the W3C validator without errors.
+![HTML Validator Screenshot](/readme-images/10.png)
     - **CSS:** No errors when validated using the official (Jigsaw) validator.
+  ![CSS Validator Screenshot](/readme-images/11.png)
     - **ACCESSIBILITY:** Ensured readability and accessibility of chosen colors and fonts using Lighthouse in devtools.
+  ![Accessibility Screenshot](/readme-images/12.png)
 
 ### UNFIXED BUGS
 
