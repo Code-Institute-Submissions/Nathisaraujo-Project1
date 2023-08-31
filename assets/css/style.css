@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Nunito&display=swap');
 
-dt {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: rgb(219, 219, 219);
-}
-
-.first-box-title {
-    font-size: 1.5rem;
-    text-align: left;
+header {
+    background-image: url('../images/nath (1).png');
+    background-size: cover;
+    background-position: 110%;
+    width: 100%;
+    height: 100px;
 }
 
 body {
@@ -18,17 +15,39 @@ body {
     font-family: 'Nunito', sans-serif, georgia, sans-serif;
 }
 
-header {
-    background-image: url('../images/nath (1).png');
-    background-size: cover;
-    background-position: 110%;
-    width: 100%;
-    height: 100px;
+/* NAV */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    width: 100vw;
 }
 
+li a {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* HEADINGS */
 h1 {
     margin: 0px;
     font-size: 35px;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
 }
 
 h3 {
@@ -37,6 +56,7 @@ h3 {
     margin: 0px;
 }
 
+/* HOME SECTION */
 .first-box {
     display: flex;
     width: 60vw;
@@ -59,6 +79,10 @@ h3 {
     font-size: 1rem;
 }
 
+.first-box-title {
+    font-size: 1.5rem;
+    text-align: left;
+}
 
 .radiusdois {
     border-radius: 10%;
@@ -73,6 +97,7 @@ h3 {
     color: rgb(0, 0, 0);
 }
 
+/* EXPERIENCE SECTION */
 .second-box {
     display: flex;
     background-color: #181818ec;
@@ -83,12 +108,20 @@ h3 {
     margin: 0 auto;
 }
 
+dt {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+}
+
+/* EXPERIENCE AND GET TO KNOW ME CONTAINER */
 .facts-interests {
     color: white;
     width: 50%;
     padding: 2rem;
 }
 
+/* RECOMMENDATIONS SECTION */
 #autores {
     display: flex;
     width: 86%;
@@ -109,7 +142,6 @@ h3 {
     justify-content: space-between;
     width: 50%;
 }
-
 
 .rec {
     display: flex;
@@ -143,6 +175,7 @@ summary {
     z-index: 3;
 }
 
+/* CONTACT SECTION */
 .contact-box {
     display: flex;
     justify-content: space-around;
@@ -183,6 +216,11 @@ summary {
     color: white;
 }
 
+.menor {
+    display: flex;
+    flex-direction: column;
+}
+
 button {
     margin-top: 0.75rem;
     padding: 0.75rem;
@@ -196,36 +234,7 @@ button {
     cursor: pointer;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    flex-direction: row;
-    display: flex;
-    align-content: stretch;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    /* position: fixed; */
-    width: 100vw;
-    /* padding-bottom: 5vh; */
-}
-
-li a {
-    color: rgb(0, 0, 0);
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-h2 {
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-}
-
+/* FOOTER */
 footer {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -241,12 +250,7 @@ footer {
     text-transform: uppercase;
 }
 
-.menor {
-    display: flex;
-    flex-direction: column;
-}
-
-/* media queries media queries media queries media queries media queries */
+/* MEDIA QUERIES */
 @media screen and (max-width: 750px) {
 
     header {
@@ -256,6 +260,10 @@ footer {
 
     body {
         font-size: 1rem;
+    }
+
+    li a {
+        font-size: 15px;
     }
 
     h3 {
@@ -282,6 +290,20 @@ footer {
     .second-box {
         width: 80vw;
         flex-direction: column;
+    }
+
+    .facts-interests {
+        width: 60vw;
+        padding: 20px;
+    }
+
+    dt {
+        width: 70vw;
+
+    }
+
+    dd {
+        width: 70vw;
     }
 
     #autores {
@@ -319,34 +341,8 @@ footer {
         margin-bottom: 20px;
     }
 
-    footer {
-        font-size: 0.8rem;
-    }
-
-    li a {
-        font-size: 15px;
-    }
-
-    dt {
-        width: 70vw;
-
-    }
-
-    dd {
-        width: 70vw;
-    }
-
-    .facts-interests {
-        width: 60vw;
-        padding: 20px;
-    }
-
     .formfields {
         width: 70vw;
-    }
-
-    dd {
-        width: 60vw;
     }
 
     .menor {
@@ -363,5 +359,6 @@ footer {
 
     footer {
         padding-top: 30px;
+        font-size: 0.8rem;
     }
 }
