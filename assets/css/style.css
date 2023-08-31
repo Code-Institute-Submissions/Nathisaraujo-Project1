@@ -17,12 +17,12 @@ header {
     display: flex;
     justify-content: start;
     align-items: center;
-    background-image: url('../images/capa.jpg');
+    background-image: url('../images/capa.jpeg');
     background-size: cover;
     background-position: 80% 50%;
     width: 100%;
     height: 160px;
-    color: #333;
+    color: rgb(0, 0, 0);
     text-align: left;
     font-family: 'Borel', cursive, georgia, sans-serif;
     vertical-align: bottom;
@@ -47,7 +47,7 @@ h3 {
     margin: 0 auto;
     padding: 2vw;
     font-size: 25px;
-    background-image: url('../images/nath.jpg');
+    background-image: url('../images/nath.jpeg');
     background-position: 70% 40%;
     height: 300px;
     text-align: left;
@@ -78,7 +78,7 @@ h3 {
 
 .second-box {
     display: flex;
-    background-color: #18181891;
+    background-color: #181818ec;
     border-radius: 10px;
     background-attachment: fixed;
     display: flex;
@@ -100,7 +100,7 @@ h3 {
 }
 
 .autores-card {
-    background-color: #18181891;
+    background-color: #181818ec;
     border-radius: 10px;
     padding: 1vw;
     margin: 0 15px;
@@ -149,7 +149,7 @@ summary {
 .contact-box {
     display: flex;
     justify-content: space-around;
-    background-color: #18181891;
+    background-color: #181818ec;
     border-radius: 10px;
     padding: 2vw;
     margin: 0 auto;
@@ -161,7 +161,6 @@ summary {
 .contact-information {
     display: flex;
     flex-direction: column;
-    /* width: 60%; */
     color: white;
 }
 
@@ -183,7 +182,6 @@ summary {
 .form {
     display: flex;
     flex-direction: column;
-    /* width: 60%; */
     border-radius: 10px;
     color: white;
 }
@@ -207,12 +205,11 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
-    color: white;
 }
 
 li a {
     display: block;
-    color: #333;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
