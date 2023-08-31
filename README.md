@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# NATHALIA ARAUJO
 
-Welcome,
+The Nathalia Araujo website serves as a comprehensive curriculum landing page, presenting an extensive array of information about my career. The page starts with a succinct overview of my educational background and interests. Visitors to this website will find all the relevant information necessary to gain a comprehensive understanding of me before making any hiring decisions. It's crucial to me that individuals can gain insights into my personality, rather than focusing solely on my professional skills.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## FEATURES
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+### Header
+    - The header only contains a picture with my logo.
+    - Its purpose is to maintain the website minimalist and clean.
 
-## Codeanywhere Reminders
+### Navigation
+  - Positioned at the top of the page.
+  - Links to various sections: Home, Experience, About Me, Recommendations, and Contact.
+  - The links facilitate easy information retrieval, allowing users to quickly access their areas of interest.
+  - The color contrast is optimized for visibility.
+  - Maintains uniformity with the body font to ensure cleanliness and consistency.
+  - The minimalist and straightforward design aids users in swift identification.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Home
+  - It's the landing page image.
+  - Offers a glimpse of my primary skills.
+  - Presents essential summarized information.
+  - Includes a photo of the page's author.
 
-`python3 -m http.server`
+### Experience
+  - Explores work experience and detailed education history.
+  - Features two lists for each experience, providing additional insights.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Get to Know Me
+  - Adheres to the same design concept as the experience section.
+  - Comprises two lists: one featuring five facts about the author and another with five of her interests.
+  - Offers users a deeper understanding of the author's personality beyond her professional background.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Recommendations
+  - Showcases two containers, each dedicated to a person that she collaborated with or served her as a client.
+  - Users can click "Read More" to view the feedback provided by each individual.
+  - Includes a photo and brief job description for each person.
 
-`http_server`
+### Contact Me
+  - Provides contact information for users interested in reaching out.
+  - Displays contact details.
+  - Incorporates a map to indicate the location.
+  - Features a form where users can input their name, email, phone number, and leave a message.
+  - Users can opt to receive updates via a checkbox.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### TESTING
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Verified compatibility across different browsers: Chrome, Firefox, Edge.
+- Confirmed responsiveness and functionality on various screen sizes using devtools.
+- Ensured readability and clarity of header, navigation, sections, and buttons.
+- Verified functionality of "Read More" buttons in the recommendations section.
+- Validated the proper working of the contact form, including field requirements and proper formats.
+  - Had many problems with alignment while coding. I tested many ways to fixed it and also studied and had help learning about flexbox and alignment. At first, I used to fix everything with padding and margin adjustments, which I found out is wrong.
+- Didn't know I had to commit frequently until certain point in the project which obviously affected me negatively.
+- Addressed alignment issues through learning and implementing flexbox techniques.
+- Recognized the importance of frequent commits during project development.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### BUGS
 
-To log into the Heroku toolbelt CLI:
+- Rectified issues identified by validators, such as replacing prohibited elements like `<button>` within `<a>`.
+- Eliminated unnecessary `<div>` elements for cleaner code.
+- Resolved all identified problems.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### VALIDATOR TESTING
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **HTML:** Passed through the W3C validator without errors.
+- **CSS:** No errors when validated using the official (Jigsaw) validator.
+- **ACCESSIBILITY:** Ensured readability and accessibility of chosen colors and fonts using Lighthouse in devtools.
 
----
+### UNFIXED BUGS
 
-Happy coding!
+No unresolved bugs.
+
+### DEPLOYMENT
+
+- The project was deployed to GitHub Pages using the following steps:
+  - Navigate to the "Settings" tab in the GitHub repository.
+  - Access the "Pages" menu on the right.
+  - Deploy the site using the relevant settings.
+
+**Live Link:** [https://nathisaraujo.github.io/Project1/](https://nathisaraujo.github.io/Project1/)
+
+### CREDITS
+
+- Implemented navigation bar instructions from [w3schools](https://www.w3schools.com/css/css_navbar.asp).
+
+### MEDIA
+
+- All images used are owned by me.
+
