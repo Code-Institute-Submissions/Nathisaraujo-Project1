@@ -2,7 +2,7 @@
 
 The Nathalia Araujo website serves as a comprehensive curriculum landing page, presenting an extensive array of information about my career. The page starts with a succinct overview of my educational background and interests. Visitors to this website will find all the relevant information necessary to gain a comprehensive understanding of me before making any hiring decisions. It's crucial to me that individuals can gain insights into my personality, rather than focusing solely on my professional skills.
 
-[Contributions guidelines](readme-images/1.png)
+![Contributions guidelines](/readme-images/1.png)
 
 ## FEATURES
 
