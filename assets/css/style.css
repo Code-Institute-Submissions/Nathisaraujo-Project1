@@ -93,19 +93,11 @@ h3 {
     padding: 2rem;
 }
 
-li span {
-    text-transform: uppercase;
-    padding: 0 !important;
-}
-
-.experience {
-    list-style-type: none;
-}
-
 #autores {
     display: flex;
     width: 86%;
     margin: 0 auto;
+    align-items: center;
 }
 
 .autores-card {
@@ -236,8 +228,8 @@ h2 {
 footer {
     background-color: rgb(255, 255, 255);
     color: #333;
-    height: 50px;
-    padding: 5px;
+    height: 40px;
+    padding-top: 30px;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -246,6 +238,11 @@ footer {
     z-index: 3;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+.menor {
+    display: flex;
+    flex-direction: column;
 }
 
 /* media queries media queries media queries media queries media queries */
@@ -272,10 +269,9 @@ footer {
 
     .first-box {
         width: 80vw;
-        height: 50vh;
+        height: 30vh;
         text-align: left;
         font-size: 0.5rem;
-        /* tamanho da fonte da first-box */
     }
 
     .second-box {
@@ -290,8 +286,9 @@ footer {
 
     .autores-card {
         flex-direction: column;
-        width: 80vw;
-        margin-top: 10px;
+        width: 60vw;
+        margin-top: 20px;
+        padding: 20px;
     }
 
     .rec {
@@ -301,23 +298,20 @@ footer {
     }
 
     .contact-box {
-        width: 80vw;
+        width: 65vw;
         flex-direction: column;
         margin-bottom: 100px;
+        padding: 20px;
     }
 
-    /* align content no map e contact information */
     .contact-information {
         width: 90%;
         align-content: center;
     }
 
     #map {
-        align-content: center;
-    }
-
-    .formulario {
-        width: 80vw;
+        width: 60vw;
+        margin-bottom: 20px;
     }
 
     footer {
@@ -337,16 +331,32 @@ footer {
         width: 70vw;
     }
 
-    .facts-interests li {
+    .facts-interests {
         width: 60vw;
+        padding: 20px;
     }
 
     .formfields {
         width: 70vw;
-        align-content: center;
-        /* align content não funciona no treco todode contato */
     }
 
+    dd {
+        width: 60vw;
+    }
 
+    .menor {
+        width: 55vw;
+    }
 
+    textarea {
+        width: 55vw;
+    }
+
+    .form {
+        padding-right: 0px;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
 }

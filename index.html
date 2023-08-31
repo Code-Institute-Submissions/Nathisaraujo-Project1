@@ -56,19 +56,18 @@
     <div class="second-box">
         <div class="facts-interests">
             <h3>Experience</h3>
-            <ol class="experience">
-                <!-- criar classe para modificar o titulo dentro do span -->
-                <li><span>Assistant - Embassy of Ireland in Brazil </span>
-                    - Cultural projects management with EU and governamental stakeholders</li>
-                <li><span>Independent Lawyer - AAldeia and Labric </span>
-                    -Business legal advice, draw up contracts and resolving legal demands.</li>
-                <li><span>Volunteer - Public Ministry</span>
-                    - Constitutional Appeals Advisory. Performance in higher courts</li>
-                <li><span>Intern - Republic Attorney's Office </span>
-                    - Citizen Service at the Federal Public Prosecution Service</li>
-                <li><span>Intern - Child and Youth Court</span>
-                    - Process handling and procedural knowledge</li>
-            </ol>
+            <dl>
+                <dt>Administrative Assistant - Embassy of Ireland in Brazil</dt>
+                <dd>- Cultural projects management with EU and governamental stakeholders</dd>
+                <dt>Independent Lawyer - AAldeia and Labric</dt>
+                <dd>- Business legal advice, draw up contracts and resolving legal demands.</dd>
+                <dt>Volunteer - Public Ministry</dt>
+                <dd>- Constitutional Appeals Advisory. Performance in higher courts</dd>
+                <dt>Intern - Republic Attorney's Office</dt>
+                <dd>- Citizen Service at the Federal Public Prosecution Service</dd>
+                <dt>Intern - Child and Youth Court</dt>
+                <dd>- Process handling and procedural knowledge</dd>
+            </dl>
         </div>
         <div class="facts-interests">
             <h3> Education</h3>
@@ -170,23 +169,26 @@
             <fieldset class="form">
                 <legend><strong>CONTACT</strong></legend>
 
-                <label for="name-field">Name:</label>
-                <input type="text" name="getdata" id="name-field" required>
-                <label for="email-field">Email:</label>
-                <input type="text" name="getdata" id="email-field" required>
-                <label for="phone">Phone:</label>
-                <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                <label for="thoughts" class="formfields">Send me a message:</label>
-                <textarea name="message" id="thoughts"
-                    placeholder="Write your message here and I'll be in contact as soon as possible" rows="10"
-                    cols="30">
+                <div class="menor">
+                    <label for="name    -field">Name:</label>
+                    <input type="text" name="getdata" id="name-field" required>
+                    <label for="email-field">Email:</label>
+                    <input type="text" name="getdata" id="email-field" required>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <label for="thoughts" class="formfields">Send me a message:</label>
+                    <div>
+                        <textarea name="message" id="thoughts"
+                            placeholder="Write your message here and I'll be in contact as soon as possible" rows="10"
+                            cols="30">
                 </textarea>
-                <!-- não tá funcionando o placeholder -->
-                <div>
-                    <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
-                    <label for="checkbox">I want to receive e-mails at every new update</label>
-                </div>
-                <button type="submit">Send!</button>
+
+                        <!-- não tá funcionando o placeholder -->
+                        <div>
+                            <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
+                            <label for="checkbox">I want to receive e-mails at every new update</label>
+                        </div>
+                        <button type="submit">Send!</button>
 
             </fieldset>
         </form>
