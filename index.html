@@ -120,7 +120,7 @@
 
     <div id="autores">
         <div class="autores-card">
-            <img class="card-img" src="./assets/images/ameli.jpeg" alt="woman picture" aria-labelledby="ameli">
+            <img class="card-img" src="./assets/images/ameli.jpeg" alt="woman picture" aria-labelledby="autores-card">
             <div class="rec">
                 <h3>Ameli Carrano</h3>
                 <p>Web Designer and Developer at Carrano's Designs & Marketing</p>
@@ -137,7 +137,7 @@
         </div>
 
         <div class="autores-card">
-            <img class="card-img" src="./assets/images/Thomas_63.jpg" alt="man picture" aria-labelledby="guilherme">
+            <img class="card-img" src="./assets/images/Thomas_63.jpg" alt="man picture" aria-labelledby="autores-card">
             <div class="rec">
                 <h3>Guilherme Zakczewiski</h3>
                 <p>Production Technician at Johnson & Johnson Vision Care</p>
@@ -170,26 +170,23 @@
                 <legend><strong>CONTACT</strong></legend>
 
                 <div class="menor">
-                    <label for="name    -field">Name:</label>
+                    <label for="name-field">Name:</label>
                     <input type="text" name="getdata" id="name-field" required>
                     <label for="email-field">Email:</label>
                     <input type="text" name="getdata" id="email-field" required>
                     <label for="phone">Phone:</label>
                     <input type="tel" name="phonenumber" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                     <label for="thoughts" class="formfields">Send me a message:</label>
-                    <div>
-                        <textarea name="message" id="thoughts"
-                            placeholder="Write your message here and I'll be in contact as soon as possible" rows="10"
-                            cols="30">
+                </div>
+                <textarea name="message" id="thoughts"
+                    placeholder="Write your message here and I'll be in contact as soon as possible" rows="10"
+                    cols="30">
                 </textarea>
-
-                        <!-- não tá funcionando o placeholder -->
-                        <div>
-                            <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
-                            <label for="checkbox">I want to receive e-mails at every new update</label>
-                        </div>
-                        <button type="submit">Send!</button>
-
+                <div>
+                    <input type="checkbox" id="checkbox" name="accept_terms" value="yes" checked required>
+                    <label for="checkbox">I want to receive e-mails at every new update</label>
+                </div>
+                <button type="submit">Send!</button>
             </fieldset>
         </form>
     </div>

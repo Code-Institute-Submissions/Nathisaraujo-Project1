@@ -8,7 +8,7 @@ dt {
 
 body {
     margin: 0 auto;
-    background-color: rgb(14, 13, 37);
+    background-color: rgb(255, 255, 255);
     font-size: 1rem;
     font-family: 'Nunito', sans-serif, georgia, sans-serif;
 }
@@ -73,21 +73,20 @@ h3 {
 .title-center {
     text-align: center;
     font-family: 'Borel', cursive, georgia, sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 .second-box {
     display: flex;
-    background-color: #aca6a291;
+    background-color: #18181891;
     border-radius: 10px;
     background-attachment: fixed;
     display: flex;
     width: 60vw;
     margin: 0 auto;
-    /* padding: 2vw; */
 }
 
 .facts-interests {
-    /* text-align: left; */
     color: white;
     width: 50%;
     padding: 2rem;
@@ -101,7 +100,7 @@ h3 {
 }
 
 .autores-card {
-    background-color: #aca6a291;
+    background-color: #18181891;
     border-radius: 10px;
     padding: 1vw;
     margin: 0 15px;
@@ -150,7 +149,7 @@ summary {
 .contact-box {
     display: flex;
     justify-content: space-around;
-    background-color: #aca6a291;
+    background-color: #18181891;
     border-radius: 10px;
     padding: 2vw;
     margin: 0 auto;
@@ -192,8 +191,8 @@ summary {
 button {
     margin-top: 0.75rem;
     padding: 0.75rem;
-    background-color: rgb(24, 23, 23);
-    color: #edffd9;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     border: none;
     border-radius: 6px;
     width: 50%;
@@ -207,7 +206,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 li a {
@@ -226,8 +226,8 @@ h2 {
 }
 
 footer {
-    background-color: rgb(255, 255, 255);
-    color: #333;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     height: 40px;
     padding-top: 30px;
     text-align: center;
